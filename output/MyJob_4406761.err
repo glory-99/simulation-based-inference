@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "exp1.py", line 6, in <module>
+    import matplotlib.pyplot as plt
+  File "/software/python-anaconda-2020.11-el8-x86_64/lib/python3.8/site-packages/matplotlib/__init__.py", line 109, in <module>
+    from . import _api, _version, cbook, docstring, rcsetup
+  File "/software/python-anaconda-2020.11-el8-x86_64/lib/python3.8/site-packages/matplotlib/rcsetup.py", line 27, in <module>
+    from matplotlib.colors import Colormap, is_color_like
+  File "/software/python-anaconda-2020.11-el8-x86_64/lib/python3.8/site-packages/matplotlib/colors.py", line 56, in <module>
+    from matplotlib import _api, cbook, scale
+  File "/software/python-anaconda-2020.11-el8-x86_64/lib/python3.8/site-packages/matplotlib/scale.py", line 23, in <module>
+    from matplotlib.ticker import (
+  File "/software/python-anaconda-2020.11-el8-x86_64/lib/python3.8/site-packages/matplotlib/ticker.py", line 136, in <module>
+    from matplotlib import transforms as mtransforms
+  File "/software/python-anaconda-2020.11-el8-x86_64/lib/python3.8/site-packages/matplotlib/transforms.py", line 46, in <module>
+    from matplotlib._path import (
+ImportError: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /software/python-anaconda-2020.11-el8-x86_64/lib/python3.8/site-packages/matplotlib/_path.cpython-38-x86_64-linux-gnu.so)
