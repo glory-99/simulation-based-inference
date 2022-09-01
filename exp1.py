@@ -138,7 +138,7 @@ if __name__ == "__main__":
                                                           generator=generator,
                                                           lr=0.001,
                                                           batch_size=256,
-                                                          epochs=200,
+                                                          epochs=500,
                                                           iter_per_epoch=3000,
                                                           val_data=Y_val,
                                                           val_label=beta_val)
@@ -146,6 +146,8 @@ if __name__ == "__main__":
     torch.save(model.state_dict(), 'My_model.pt')
     np.save('X', X)
     np.save('normalize_constant', normalize_c)
+    np.save('train_losses', train_losses)
+    np.save('val_losses', val_losses)
     #plt.plot(range(len(train_losses)), train_losses)
     #if len(val_losses) > 0:
     #    plt.plot(range(len(train_losses)), val_losses)
