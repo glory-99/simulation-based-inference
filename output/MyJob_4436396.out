@@ -1,0 +1,2002 @@
+cuda:0
+Epoch: 1, Loss: 0.13699
+Val loss: 0.12535
+Epoch: 2, Loss: 0.11898
+Val loss: 0.11212
+Epoch: 3, Loss: 0.10869
+Val loss: 0.10401
+Epoch: 4, Loss: 0.10209
+Val loss: 0.09938
+Epoch: 5, Loss: 0.09807
+Val loss: 0.09644
+Epoch: 6, Loss: 0.09487
+Val loss: 0.09244
+Epoch: 7, Loss: 0.09122
+Val loss: 0.08943
+Epoch: 8, Loss: 0.08819
+Val loss: 0.08704
+Epoch: 9, Loss: 0.08641
+Val loss: 0.08593
+Epoch: 10, Loss: 0.08501
+Val loss: 0.08402
+Epoch: 11, Loss: 0.08392
+Val loss: 0.08307
+Epoch: 12, Loss: 0.08304
+Val loss: 0.08223
+Epoch: 13, Loss: 0.08255
+Val loss: 0.08154
+Epoch: 14, Loss: 0.08201
+Val loss: 0.08186
+Epoch: 15, Loss: 0.08162
+Val loss: 0.08138
+Epoch: 16, Loss: 0.08129
+Val loss: 0.08035
+Epoch: 17, Loss: 0.08082
+Val loss: 0.07962
+Epoch: 18, Loss: 0.08046
+Val loss: 0.08011
+Epoch: 19, Loss: 0.08026
+Val loss: 0.07945
+Epoch: 20, Loss: 0.08003
+Val loss: 0.07950
+Epoch: 21, Loss: 0.07977
+Val loss: 0.07957
+Epoch: 22, Loss: 0.07966
+Val loss: 0.07892
+Epoch: 23, Loss: 0.07941
+Val loss: 0.07880
+Epoch: 24, Loss: 0.07914
+Val loss: 0.07834
+Epoch: 25, Loss: 0.07895
+Val loss: 0.07854
+Epoch: 26, Loss: 0.07887
+Val loss: 0.07852
+Epoch: 27, Loss: 0.07876
+Val loss: 0.07823
+Epoch: 28, Loss: 0.07849
+Val loss: 0.07813
+Epoch: 29, Loss: 0.07846
+Val loss: 0.07768
+Epoch: 30, Loss: 0.07847
+Val loss: 0.07768
+Epoch: 31, Loss: 0.07821
+Val loss: 0.07824
+Epoch: 32, Loss: 0.07812
+Val loss: 0.07735
+Epoch: 33, Loss: 0.07804
+Val loss: 0.07732
+Epoch: 34, Loss: 0.07795
+Val loss: 0.07715
+Epoch: 35, Loss: 0.07783
+Val loss: 0.07737
+Epoch: 36, Loss: 0.07785
+Val loss: 0.07694
+Epoch: 37, Loss: 0.07766
+Val loss: 0.07708
+Epoch: 38, Loss: 0.07755
+Val loss: 0.07698
+Epoch: 39, Loss: 0.07759
+Val loss: 0.07673
+Epoch: 40, Loss: 0.07732
+Val loss: 0.07717
+Epoch: 41, Loss: 0.07730
+Val loss: 0.07710
+Epoch: 42, Loss: 0.07726
+Val loss: 0.07628
+Epoch: 43, Loss: 0.07727
+Val loss: 0.07685
+Epoch: 44, Loss: 0.07712
+Val loss: 0.07649
+Epoch: 45, Loss: 0.07702
+Val loss: 0.07620
+Epoch: 46, Loss: 0.07694
+Val loss: 0.07658
+Epoch: 47, Loss: 0.07678
+Val loss: 0.07671
+Epoch: 48, Loss: 0.07677
+Val loss: 0.07590
+Epoch: 49, Loss: 0.07650
+Val loss: 0.07624
+Epoch: 50, Loss: 0.07628
+Val loss: 0.07580
+Epoch: 51, Loss: 0.07628
+Val loss: 0.07587
+Epoch: 52, Loss: 0.07633
+Val loss: 0.07602
+Epoch: 53, Loss: 0.07622
+Val loss: 0.07571
+Epoch: 54, Loss: 0.07624
+Val loss: 0.07581
+Epoch: 55, Loss: 0.07615
+Val loss: 0.07557
+Epoch: 56, Loss: 0.07604
+Val loss: 0.07533
+Epoch: 57, Loss: 0.07602
+Val loss: 0.07629
+Epoch: 58, Loss: 0.07600
+Val loss: 0.07544
+Epoch: 59, Loss: 0.07592
+Val loss: 0.07538
+Epoch: 60, Loss: 0.07577
+Val loss: 0.07559
+Epoch: 61, Loss: 0.07588
+Val loss: 0.07535
+Epoch: 62, Loss: 0.07585
+Val loss: 0.07505
+Epoch: 63, Loss: 0.07576
+Val loss: 0.07486
+Epoch: 64, Loss: 0.07579
+Val loss: 0.07507
+Epoch: 65, Loss: 0.07575
+Val loss: 0.07543
+Epoch: 66, Loss: 0.07567
+Val loss: 0.07494
+Epoch: 67, Loss: 0.07574
+Val loss: 0.07487
+Epoch: 68, Loss: 0.07562
+Val loss: 0.07507
+Epoch: 69, Loss: 0.07557
+Val loss: 0.07503
+Epoch: 70, Loss: 0.07558
+Val loss: 0.07516
+Epoch: 71, Loss: 0.07550
+Val loss: 0.07509
+Epoch: 72, Loss: 0.07545
+Val loss: 0.07498
+Epoch: 73, Loss: 0.07556
+Val loss: 0.07508
+Epoch: 74, Loss: 0.07552
+Val loss: 0.07490
+Epoch: 75, Loss: 0.07538
+Val loss: 0.07520
+Epoch: 76, Loss: 0.07535
+Val loss: 0.07468
+Epoch: 77, Loss: 0.07541
+Val loss: 0.07486
+Epoch: 78, Loss: 0.07535
+Val loss: 0.07482
+Epoch: 79, Loss: 0.07525
+Val loss: 0.07505
+Epoch: 80, Loss: 0.07532
+Val loss: 0.07458
+Epoch: 81, Loss: 0.07532
+Val loss: 0.07470
+Epoch: 82, Loss: 0.07525
+Val loss: 0.07526
+Epoch: 83, Loss: 0.07528
+Val loss: 0.07496
+Epoch: 84, Loss: 0.07514
+Val loss: 0.07544
+Epoch: 85, Loss: 0.07523
+Val loss: 0.07487
+Epoch: 86, Loss: 0.07512
+Val loss: 0.07494
+Epoch: 87, Loss: 0.07507
+Val loss: 0.07471
+Epoch: 88, Loss: 0.07521
+Val loss: 0.07433
+Epoch: 89, Loss: 0.07494
+Val loss: 0.07464
+Epoch: 90, Loss: 0.07522
+Val loss: 0.07439
+Epoch: 91, Loss: 0.07506
+Val loss: 0.07463
+Epoch: 92, Loss: 0.07511
+Val loss: 0.07465
+Epoch: 93, Loss: 0.07493
+Val loss: 0.07478
+Epoch: 94, Loss: 0.07500
+Val loss: 0.07474
+Epoch: 95, Loss: 0.07513
+Val loss: 0.07475
+Epoch: 96, Loss: 0.07497
+Val loss: 0.07480
+Epoch: 97, Loss: 0.07499
+Val loss: 0.07453
+Epoch: 98, Loss: 0.07493
+Val loss: 0.07452
+Epoch: 99, Loss: 0.07498
+Val loss: 0.07451
+Epoch: 100, Loss: 0.07497
+Val loss: 0.07454
+Epoch: 101, Loss: 0.07499
+Val loss: 0.07480
+Epoch: 102, Loss: 0.07491
+Val loss: 0.07441
+Epoch: 103, Loss: 0.07495
+Val loss: 0.07425
+Epoch: 104, Loss: 0.07497
+Val loss: 0.07461
+Epoch: 105, Loss: 0.07486
+Val loss: 0.07434
+Epoch: 106, Loss: 0.07482
+Val loss: 0.07451
+Epoch: 107, Loss: 0.07485
+Val loss: 0.07484
+Epoch: 108, Loss: 0.07475
+Val loss: 0.07460
+Epoch: 109, Loss: 0.07476
+Val loss: 0.07470
+Epoch: 110, Loss: 0.07479
+Val loss: 0.07467
+Epoch: 111, Loss: 0.07482
+Val loss: 0.07457
+Epoch: 112, Loss: 0.07482
+Val loss: 0.07437
+Epoch: 113, Loss: 0.07476
+Val loss: 0.07429
+Epoch: 114, Loss: 0.07478
+Val loss: 0.07430
+Epoch: 115, Loss: 0.07476
+Val loss: 0.07451
+Epoch: 116, Loss: 0.07483
+Val loss: 0.07438
+Epoch: 117, Loss: 0.07475
+Val loss: 0.07462
+Epoch: 118, Loss: 0.07465
+Val loss: 0.07426
+Epoch: 119, Loss: 0.07479
+Val loss: 0.07410
+Epoch: 120, Loss: 0.07469
+Val loss: 0.07418
+Epoch: 121, Loss: 0.07466
+Val loss: 0.07398
+Epoch: 122, Loss: 0.07465
+Val loss: 0.07438
+Epoch: 123, Loss: 0.07461
+Val loss: 0.07399
+Epoch: 124, Loss: 0.07468
+Val loss: 0.07425
+Epoch: 125, Loss: 0.07477
+Val loss: 0.07472
+Epoch: 126, Loss: 0.07478
+Val loss: 0.07435
+Epoch: 127, Loss: 0.07475
+Val loss: 0.07401
+Epoch: 128, Loss: 0.07470
+Val loss: 0.07421
+Epoch: 129, Loss: 0.07467
+Val loss: 0.07408
+Epoch: 130, Loss: 0.07464
+Val loss: 0.07422
+Epoch: 131, Loss: 0.07461
+Val loss: 0.07488
+Epoch: 132, Loss: 0.07468
+Val loss: 0.07422
+Epoch: 133, Loss: 0.07459
+Val loss: 0.07417
+Epoch: 134, Loss: 0.07457
+Val loss: 0.07396
+Epoch: 135, Loss: 0.07458
+Val loss: 0.07397
+Epoch: 136, Loss: 0.07457
+Val loss: 0.07460
+Epoch: 137, Loss: 0.07465
+Val loss: 0.07421
+Epoch: 138, Loss: 0.07455
+Val loss: 0.07379
+Epoch: 139, Loss: 0.07464
+Val loss: 0.07452
+Epoch: 140, Loss: 0.07455
+Val loss: 0.07397
+Epoch: 141, Loss: 0.07457
+Val loss: 0.07384
+Epoch: 142, Loss: 0.07456
+Val loss: 0.07426
+Epoch: 143, Loss: 0.07453
+Val loss: 0.07434
+Epoch: 144, Loss: 0.07450
+Val loss: 0.07407
+Epoch: 145, Loss: 0.07466
+Val loss: 0.07443
+Epoch: 146, Loss: 0.07455
+Val loss: 0.07407
+Epoch: 147, Loss: 0.07449
+Val loss: 0.07426
+Epoch: 148, Loss: 0.07451
+Val loss: 0.07432
+Epoch: 149, Loss: 0.07456
+Val loss: 0.07407
+Epoch: 150, Loss: 0.07449
+Val loss: 0.07370
+Epoch: 151, Loss: 0.07457
+Val loss: 0.07423
+Epoch: 152, Loss: 0.07446
+Val loss: 0.07391
+Epoch: 153, Loss: 0.07419
+Val loss: 0.07369
+Epoch: 154, Loss: 0.07415
+Val loss: 0.07356
+Epoch: 155, Loss: 0.07410
+Val loss: 0.07373
+Epoch: 156, Loss: 0.07401
+Val loss: 0.07349
+Epoch: 157, Loss: 0.07421
+Val loss: 0.07360
+Epoch: 158, Loss: 0.07414
+Val loss: 0.07385
+Epoch: 159, Loss: 0.07407
+Val loss: 0.07361
+Epoch: 160, Loss: 0.07404
+Val loss: 0.07352
+Epoch: 161, Loss: 0.07418
+Val loss: 0.07338
+Epoch: 162, Loss: 0.07402
+Val loss: 0.07342
+Epoch: 163, Loss: 0.07425
+Val loss: 0.07357
+Epoch: 164, Loss: 0.07410
+Val loss: 0.07372
+Epoch: 165, Loss: 0.07404
+Val loss: 0.07364
+Epoch: 166, Loss: 0.07405
+Val loss: 0.07339
+Epoch: 167, Loss: 0.07404
+Val loss: 0.07374
+Epoch: 168, Loss: 0.07408
+Val loss: 0.07341
+Epoch: 169, Loss: 0.07405
+Val loss: 0.07380
+Epoch: 170, Loss: 0.07413
+Val loss: 0.07380
+Epoch: 171, Loss: 0.07415
+Val loss: 0.07385
+Epoch: 172, Loss: 0.07413
+Val loss: 0.07355
+Epoch: 173, Loss: 0.07404
+Val loss: 0.07369
+Epoch: 174, Loss: 0.07410
+Val loss: 0.07366
+Epoch: 175, Loss: 0.07404
+Val loss: 0.07364
+Epoch: 176, Loss: 0.07398
+Val loss: 0.07367
+Epoch: 177, Loss: 0.07407
+Val loss: 0.07337
+Epoch: 178, Loss: 0.07400
+Val loss: 0.07318
+Epoch: 179, Loss: 0.07390
+Val loss: 0.07377
+Epoch: 180, Loss: 0.07404
+Val loss: 0.07363
+Epoch: 181, Loss: 0.07408
+Val loss: 0.07360
+Epoch: 182, Loss: 0.07407
+Val loss: 0.07355
+Epoch: 183, Loss: 0.07407
+Val loss: 0.07355
+Epoch: 184, Loss: 0.07405
+Val loss: 0.07369
+Epoch: 185, Loss: 0.07400
+Val loss: 0.07351
+Epoch: 186, Loss: 0.07401
+Val loss: 0.07368
+Epoch: 187, Loss: 0.07400
+Val loss: 0.07339
+Epoch: 188, Loss: 0.07404
+Val loss: 0.07335
+Epoch: 189, Loss: 0.07390
+Val loss: 0.07364
+Epoch: 190, Loss: 0.07398
+Val loss: 0.07361
+Epoch: 191, Loss: 0.07394
+Val loss: 0.07341
+Epoch: 192, Loss: 0.07398
+Val loss: 0.07329
+Epoch: 193, Loss: 0.07406
+Val loss: 0.07368
+Epoch: 194, Loss: 0.07390
+Val loss: 0.07351
+Epoch: 195, Loss: 0.07394
+Val loss: 0.07353
+Epoch: 196, Loss: 0.07394
+Val loss: 0.07340
+Epoch: 197, Loss: 0.07393
+Val loss: 0.07326
+Epoch: 198, Loss: 0.07401
+Val loss: 0.07377
+Epoch: 199, Loss: 0.07398
+Val loss: 0.07355
+Epoch: 200, Loss: 0.07399
+Val loss: 0.07337
+Epoch: 201, Loss: 0.07393
+Val loss: 0.07378
+Epoch: 202, Loss: 0.07394
+Val loss: 0.07349
+Epoch: 203, Loss: 0.07394
+Val loss: 0.07334
+Epoch: 204, Loss: 0.07396
+Val loss: 0.07334
+Epoch: 205, Loss: 0.07393
+Val loss: 0.07336
+Epoch: 206, Loss: 0.07390
+Val loss: 0.07318
+Epoch: 207, Loss: 0.07395
+Val loss: 0.07343
+Epoch: 208, Loss: 0.07396
+Val loss: 0.07365
+Epoch: 209, Loss: 0.07397
+Val loss: 0.07342
+Epoch: 210, Loss: 0.07397
+Val loss: 0.07346
+Epoch: 211, Loss: 0.07390
+Val loss: 0.07334
+Epoch: 212, Loss: 0.07386
+Val loss: 0.07346
+Epoch: 213, Loss: 0.07395
+Val loss: 0.07346
+Epoch: 214, Loss: 0.07394
+Val loss: 0.07327
+Epoch: 215, Loss: 0.07394
+Val loss: 0.07339
+Epoch: 216, Loss: 0.07381
+Val loss: 0.07353
+Epoch: 217, Loss: 0.07387
+Val loss: 0.07325
+Epoch: 218, Loss: 0.07375
+Val loss: 0.07342
+Epoch: 219, Loss: 0.07390
+Val loss: 0.07351
+Epoch: 220, Loss: 0.07389
+Val loss: 0.07353
+Epoch: 221, Loss: 0.07395
+Val loss: 0.07363
+Epoch: 222, Loss: 0.07382
+Val loss: 0.07309
+Epoch: 223, Loss: 0.07387
+Val loss: 0.07344
+Epoch: 224, Loss: 0.07385
+Val loss: 0.07344
+Epoch: 225, Loss: 0.07377
+Val loss: 0.07359
+Epoch: 226, Loss: 0.07388
+Val loss: 0.07362
+Epoch: 227, Loss: 0.07380
+Val loss: 0.07321
+Epoch: 228, Loss: 0.07389
+Val loss: 0.07336
+Epoch: 229, Loss: 0.07384
+Val loss: 0.07347
+Epoch: 230, Loss: 0.07379
+Val loss: 0.07372
+Epoch: 231, Loss: 0.07377
+Val loss: 0.07317
+Epoch: 232, Loss: 0.07382
+Val loss: 0.07308
+Epoch: 233, Loss: 0.07382
+Val loss: 0.07337
+Epoch: 234, Loss: 0.07382
+Val loss: 0.07363
+Epoch: 235, Loss: 0.07385
+Val loss: 0.07367
+Epoch: 236, Loss: 0.07376
+Val loss: 0.07352
+Epoch: 237, Loss: 0.07373
+Val loss: 0.07355
+Epoch: 238, Loss: 0.07380
+Val loss: 0.07339
+Epoch: 239, Loss: 0.07378
+Val loss: 0.07331
+Epoch: 240, Loss: 0.07371
+Val loss: 0.07327
+Epoch: 241, Loss: 0.07389
+Val loss: 0.07344
+Epoch: 242, Loss: 0.07367
+Val loss: 0.07338
+Epoch: 243, Loss: 0.07388
+Val loss: 0.07349
+Epoch: 244, Loss: 0.07379
+Val loss: 0.07336
+Epoch: 245, Loss: 0.07373
+Val loss: 0.07353
+Epoch: 246, Loss: 0.07376
+Val loss: 0.07333
+Epoch: 247, Loss: 0.07370
+Val loss: 0.07316
+Epoch: 248, Loss: 0.07379
+Val loss: 0.07339
+Epoch: 249, Loss: 0.07374
+Val loss: 0.07348
+Epoch: 250, Loss: 0.07382
+Val loss: 0.07307
+Epoch: 251, Loss: 0.07370
+Val loss: 0.07330
+Epoch: 252, Loss: 0.07367
+Val loss: 0.07344
+Epoch: 253, Loss: 0.07379
+Val loss: 0.07339
+Epoch: 254, Loss: 0.07377
+Val loss: 0.07321
+Epoch: 255, Loss: 0.07374
+Val loss: 0.07324
+Epoch: 256, Loss: 0.07372
+Val loss: 0.07345
+Epoch: 257, Loss: 0.07370
+Val loss: 0.07312
+Epoch: 258, Loss: 0.07368
+Val loss: 0.07317
+Epoch: 259, Loss: 0.07357
+Val loss: 0.07314
+Epoch: 260, Loss: 0.07372
+Val loss: 0.07322
+Epoch: 261, Loss: 0.07379
+Val loss: 0.07316
+Epoch: 262, Loss: 0.07367
+Val loss: 0.07312
+Epoch: 263, Loss: 0.07370
+Val loss: 0.07326
+Epoch: 264, Loss: 0.07367
+Val loss: 0.07354
+Epoch: 265, Loss: 0.07375
+Val loss: 0.07348
+Epoch: 266, Loss: 0.07373
+Val loss: 0.07338
+Epoch: 267, Loss: 0.07369
+Val loss: 0.07343
+Epoch: 268, Loss: 0.07365
+Val loss: 0.07351
+Epoch: 269, Loss: 0.07373
+Val loss: 0.07329
+Epoch: 270, Loss: 0.07372
+Val loss: 0.07313
+Epoch: 271, Loss: 0.07371
+Val loss: 0.07378
+Epoch: 272, Loss: 0.07363
+Val loss: 0.07340
+Epoch: 273, Loss: 0.07369
+Val loss: 0.07316
+Epoch: 274, Loss: 0.07364
+Val loss: 0.07340
+Epoch: 275, Loss: 0.07374
+Val loss: 0.07314
+Epoch: 276, Loss: 0.07373
+Val loss: 0.07336
+Epoch: 277, Loss: 0.07363
+Val loss: 0.07343
+Epoch: 278, Loss: 0.07342
+Val loss: 0.07302
+Epoch: 279, Loss: 0.07323
+Val loss: 0.07291
+Epoch: 280, Loss: 0.07335
+Val loss: 0.07293
+Epoch: 281, Loss: 0.07327
+Val loss: 0.07295
+Epoch: 282, Loss: 0.07322
+Val loss: 0.07283
+Epoch: 283, Loss: 0.07334
+Val loss: 0.07298
+Epoch: 284, Loss: 0.07324
+Val loss: 0.07274
+Epoch: 285, Loss: 0.07316
+Val loss: 0.07302
+Epoch: 286, Loss: 0.07330
+Val loss: 0.07300
+Epoch: 287, Loss: 0.07332
+Val loss: 0.07261
+Epoch: 288, Loss: 0.07331
+Val loss: 0.07286
+Epoch: 289, Loss: 0.07312
+Val loss: 0.07274
+Epoch: 290, Loss: 0.07287
+Val loss: 0.07255
+Epoch: 291, Loss: 0.07289
+Val loss: 0.07261
+Epoch: 292, Loss: 0.07286
+Val loss: 0.07294
+Epoch: 293, Loss: 0.07279
+Val loss: 0.07247
+Epoch: 294, Loss: 0.07291
+Val loss: 0.07241
+Epoch: 295, Loss: 0.07297
+Val loss: 0.07225
+Epoch: 296, Loss: 0.07292
+Val loss: 0.07248
+Epoch: 297, Loss: 0.07284
+Val loss: 0.07253
+Epoch: 298, Loss: 0.07288
+Val loss: 0.07244
+Epoch: 299, Loss: 0.07278
+Val loss: 0.07259
+Epoch: 300, Loss: 0.07290
+Val loss: 0.07271
+Epoch: 301, Loss: 0.07286
+Val loss: 0.07238
+Epoch: 302, Loss: 0.07289
+Val loss: 0.07255
+Epoch: 303, Loss: 0.07288
+Val loss: 0.07255
+Epoch: 304, Loss: 0.07280
+Val loss: 0.07239
+Epoch: 305, Loss: 0.07281
+Val loss: 0.07289
+Epoch: 306, Loss: 0.07272
+Val loss: 0.07226
+Epoch: 307, Loss: 0.07289
+Val loss: 0.07250
+Epoch: 308, Loss: 0.07286
+Val loss: 0.07286
+Epoch: 309, Loss: 0.07287
+Val loss: 0.07256
+Epoch: 310, Loss: 0.07288
+Val loss: 0.07231
+Epoch: 311, Loss: 0.07290
+Val loss: 0.07257
+Epoch: 312, Loss: 0.07287
+Val loss: 0.07264
+Epoch: 313, Loss: 0.07285
+Val loss: 0.07239
+Epoch: 314, Loss: 0.07277
+Val loss: 0.07233
+Epoch: 315, Loss: 0.07281
+Val loss: 0.07229
+Epoch: 316, Loss: 0.07286
+Val loss: 0.07251
+Epoch: 317, Loss: 0.07279
+Val loss: 0.07259
+Epoch: 318, Loss: 0.07269
+Val loss: 0.07199
+Epoch: 319, Loss: 0.07251
+Val loss: 0.07213
+Epoch: 320, Loss: 0.07245
+Val loss: 0.07186
+Epoch: 321, Loss: 0.07254
+Val loss: 0.07201
+Epoch: 322, Loss: 0.07250
+Val loss: 0.07218
+Epoch: 323, Loss: 0.07250
+Val loss: 0.07233
+Epoch: 324, Loss: 0.07241
+Val loss: 0.07211
+Epoch: 325, Loss: 0.07258
+Val loss: 0.07246
+Epoch: 326, Loss: 0.07240
+Val loss: 0.07228
+Epoch: 327, Loss: 0.07247
+Val loss: 0.07206
+Epoch: 328, Loss: 0.07244
+Val loss: 0.07230
+Epoch: 329, Loss: 0.07243
+Val loss: 0.07214
+Epoch: 330, Loss: 0.07250
+Val loss: 0.07200
+Epoch: 331, Loss: 0.07244
+Val loss: 0.07203
+Epoch: 332, Loss: 0.07237
+Val loss: 0.07214
+Epoch: 333, Loss: 0.07242
+Val loss: 0.07213
+Epoch: 334, Loss: 0.07248
+Val loss: 0.07224
+Epoch: 335, Loss: 0.07242
+Val loss: 0.07180
+Epoch: 336, Loss: 0.07248
+Val loss: 0.07187
+Epoch: 337, Loss: 0.07246
+Val loss: 0.07206
+Epoch: 338, Loss: 0.07243
+Val loss: 0.07215
+Epoch: 339, Loss: 0.07241
+Val loss: 0.07208
+Epoch: 340, Loss: 0.07247
+Val loss: 0.07182
+Epoch: 341, Loss: 0.07247
+Val loss: 0.07177
+Epoch: 342, Loss: 0.07243
+Val loss: 0.07227
+Epoch: 343, Loss: 0.07246
+Val loss: 0.07189
+Epoch: 344, Loss: 0.07243
+Val loss: 0.07179
+Epoch: 345, Loss: 0.07250
+Val loss: 0.07207
+Epoch: 346, Loss: 0.07247
+Val loss: 0.07234
+Epoch: 347, Loss: 0.07202
+Val loss: 0.07203
+Epoch: 348, Loss: 0.07197
+Val loss: 0.07146
+Epoch: 349, Loss: 0.07200
+Val loss: 0.07174
+Epoch: 350, Loss: 0.07212
+Val loss: 0.07154
+Epoch: 351, Loss: 0.07196
+Val loss: 0.07194
+Epoch: 352, Loss: 0.07205
+Val loss: 0.07138
+Epoch: 353, Loss: 0.07202
+Val loss: 0.07187
+Epoch: 354, Loss: 0.07200
+Val loss: 0.07165
+Epoch: 355, Loss: 0.07203
+Val loss: 0.07170
+Epoch: 356, Loss: 0.07205
+Val loss: 0.07162
+Epoch: 357, Loss: 0.07204
+Val loss: 0.07177
+Epoch: 358, Loss: 0.07211
+Val loss: 0.07144
+Epoch: 359, Loss: 0.07199
+Val loss: 0.07153
+Epoch: 360, Loss: 0.07195
+Val loss: 0.07190
+Epoch: 361, Loss: 0.07189
+Val loss: 0.07155
+Epoch: 362, Loss: 0.07203
+Val loss: 0.07179
+Epoch: 363, Loss: 0.07204
+Val loss: 0.07147
+Epoch: 364, Loss: 0.07201
+Val loss: 0.07161
+Epoch: 365, Loss: 0.07195
+Val loss: 0.07151
+Epoch: 366, Loss: 0.07197
+Val loss: 0.07163
+Epoch: 367, Loss: 0.07194
+Val loss: 0.07166
+Epoch: 368, Loss: 0.07200
+Val loss: 0.07161
+Epoch: 369, Loss: 0.07196
+Val loss: 0.07167
+Epoch: 370, Loss: 0.07206
+Val loss: 0.07152
+Epoch: 371, Loss: 0.07201
+Val loss: 0.07175
+Epoch: 372, Loss: 0.07203
+Val loss: 0.07175
+Epoch: 373, Loss: 0.07193
+Val loss: 0.07173
+Epoch: 374, Loss: 0.07200
+Val loss: 0.07146
+Epoch: 375, Loss: 0.07190
+Val loss: 0.07172
+Epoch: 376, Loss: 0.07193
+Val loss: 0.07159
+Epoch: 377, Loss: 0.07195
+Val loss: 0.07164
+Epoch: 378, Loss: 0.07205
+Val loss: 0.07189
+Epoch: 379, Loss: 0.07198
+Val loss: 0.07148
+Epoch: 380, Loss: 0.07207
+Val loss: 0.07148
+Epoch: 381, Loss: 0.07201
+Val loss: 0.07168
+Epoch: 382, Loss: 0.07202
+Val loss: 0.07128
+Epoch: 383, Loss: 0.07194
+Val loss: 0.07147
+Epoch: 384, Loss: 0.07211
+Val loss: 0.07173
+Epoch: 385, Loss: 0.07197
+Val loss: 0.07152
+Epoch: 386, Loss: 0.07207
+Val loss: 0.07143
+Epoch: 387, Loss: 0.07217
+Val loss: 0.07163
+Epoch: 388, Loss: 0.07206
+Val loss: 0.07158
+Epoch: 389, Loss: 0.07201
+Val loss: 0.07154
+Epoch: 390, Loss: 0.07191
+Val loss: 0.07143
+Epoch: 391, Loss: 0.07195
+Val loss: 0.07161
+Epoch: 392, Loss: 0.07198
+Val loss: 0.07131
+Epoch: 393, Loss: 0.07191
+Val loss: 0.07163
+Epoch: 394, Loss: 0.07195
+Val loss: 0.07170
+Epoch: 395, Loss: 0.07202
+Val loss: 0.07154
+Epoch: 396, Loss: 0.07198
+Val loss: 0.07195
+Epoch: 397, Loss: 0.07199
+Val loss: 0.07132
+Epoch: 398, Loss: 0.07190
+Val loss: 0.07145
+Epoch: 399, Loss: 0.07197
+Val loss: 0.07173
+Epoch: 400, Loss: 0.07193
+Val loss: 0.07155
+Epoch: 401, Loss: 0.07207
+Val loss: 0.07159
+Epoch: 402, Loss: 0.07193
+Val loss: 0.07178
+Epoch: 403, Loss: 0.07193
+Val loss: 0.07185
+Epoch: 404, Loss: 0.07200
+Val loss: 0.07164
+Epoch: 405, Loss: 0.07197
+Val loss: 0.07189
+Epoch: 406, Loss: 0.07206
+Val loss: 0.07159
+Epoch: 407, Loss: 0.07187
+Val loss: 0.07130
+Epoch: 408, Loss: 0.07197
+Val loss: 0.07158
+Epoch: 409, Loss: 0.07201
+Val loss: 0.07154
+Epoch: 410, Loss: 0.07203
+Val loss: 0.07170
+Epoch: 411, Loss: 0.07206
+Val loss: 0.07184
+Epoch: 412, Loss: 0.07197
+Val loss: 0.07201
+Epoch: 413, Loss: 0.07203
+Val loss: 0.07181
+Epoch: 414, Loss: 0.07194
+Val loss: 0.07168
+Epoch: 415, Loss: 0.07186
+Val loss: 0.07147
+Epoch: 416, Loss: 0.07197
+Val loss: 0.07175
+Epoch: 417, Loss: 0.07189
+Val loss: 0.07149
+Epoch: 418, Loss: 0.07201
+Val loss: 0.07161
+Epoch: 419, Loss: 0.07192
+Val loss: 0.07151
+Epoch: 420, Loss: 0.07201
+Val loss: 0.07149
+Epoch: 421, Loss: 0.07199
+Val loss: 0.07105
+Epoch: 422, Loss: 0.07161
+Val loss: 0.07122
+Epoch: 423, Loss: 0.07156
+Val loss: 0.07101
+Epoch: 424, Loss: 0.07162
+Val loss: 0.07153
+Epoch: 425, Loss: 0.07161
+Val loss: 0.07135
+Epoch: 426, Loss: 0.07154
+Val loss: 0.07112
+Epoch: 427, Loss: 0.07162
+Val loss: 0.07135
+Epoch: 428, Loss: 0.07165
+Val loss: 0.07106
+Epoch: 429, Loss: 0.07167
+Val loss: 0.07108
+Epoch: 430, Loss: 0.07169
+Val loss: 0.07106
+Epoch: 431, Loss: 0.07154
+Val loss: 0.07179
+Epoch: 432, Loss: 0.07159
+Val loss: 0.07119
+Epoch: 433, Loss: 0.07163
+Val loss: 0.07104
+Epoch: 434, Loss: 0.07157
+Val loss: 0.07128
+Epoch: 435, Loss: 0.07160
+Val loss: 0.07103
+Epoch: 436, Loss: 0.07162
+Val loss: 0.07138
+Epoch: 437, Loss: 0.07156
+Val loss: 0.07083
+Epoch: 438, Loss: 0.07158
+Val loss: 0.07124
+Epoch: 439, Loss: 0.07158
+Val loss: 0.07111
+Epoch: 440, Loss: 0.07160
+Val loss: 0.07119
+Epoch: 441, Loss: 0.07159
+Val loss: 0.07136
+Epoch: 442, Loss: 0.07163
+Val loss: 0.07091
+Epoch: 443, Loss: 0.07162
+Val loss: 0.07129
+Epoch: 444, Loss: 0.07167
+Val loss: 0.07153
+Epoch: 445, Loss: 0.07154
+Val loss: 0.07118
+Epoch: 446, Loss: 0.07149
+Val loss: 0.07127
+Epoch: 447, Loss: 0.07159
+Val loss: 0.07146
+Epoch: 448, Loss: 0.07152
+Val loss: 0.07140
+Epoch: 449, Loss: 0.07155
+Val loss: 0.07122
+Epoch: 450, Loss: 0.07160
+Val loss: 0.07121
+Epoch: 451, Loss: 0.07166
+Val loss: 0.07156
+Epoch: 452, Loss: 0.07166
+Val loss: 0.07130
+Epoch: 453, Loss: 0.07162
+Val loss: 0.07109
+Epoch: 454, Loss: 0.07156
+Val loss: 0.07106
+Epoch: 455, Loss: 0.07163
+Val loss: 0.07104
+Epoch: 456, Loss: 0.07150
+Val loss: 0.07133
+Epoch: 457, Loss: 0.07152
+Val loss: 0.07105
+Epoch: 458, Loss: 0.07163
+Val loss: 0.07145
+Epoch: 459, Loss: 0.07158
+Val loss: 0.07131
+Epoch: 460, Loss: 0.07159
+Val loss: 0.07108
+Epoch: 461, Loss: 0.07159
+Val loss: 0.07101
+Epoch: 462, Loss: 0.07155
+Val loss: 0.07117
+Epoch: 463, Loss: 0.07167
+Val loss: 0.07148
+Epoch: 464, Loss: 0.07152
+Val loss: 0.07101
+Epoch: 465, Loss: 0.07158
+Val loss: 0.07131
+Epoch: 466, Loss: 0.07155
+Val loss: 0.07111
+Epoch: 467, Loss: 0.07160
+Val loss: 0.07109
+Epoch: 468, Loss: 0.07166
+Val loss: 0.07108
+Epoch: 469, Loss: 0.07155
+Val loss: 0.07118
+Epoch: 470, Loss: 0.07163
+Val loss: 0.07120
+Epoch: 471, Loss: 0.07165
+Val loss: 0.07130
+Epoch: 472, Loss: 0.07176
+Val loss: 0.07117
+Epoch: 473, Loss: 0.07160
+Val loss: 0.07151
+Epoch: 474, Loss: 0.07151
+Val loss: 0.07164
+Epoch: 475, Loss: 0.07159
+Val loss: 0.07143
+Epoch: 476, Loss: 0.07160
+Val loss: 0.07130
+Epoch: 477, Loss: 0.07161
+Val loss: 0.07093
+Epoch: 478, Loss: 0.07149
+Val loss: 0.07139
+Epoch: 479, Loss: 0.07157
+Val loss: 0.07126
+Epoch: 480, Loss: 0.07150
+Val loss: 0.07122
+Epoch: 481, Loss: 0.07153
+Val loss: 0.07094
+Epoch: 482, Loss: 0.07162
+Val loss: 0.07131
+Epoch: 483, Loss: 0.07147
+Val loss: 0.07110
+Epoch: 484, Loss: 0.07154
+Val loss: 0.07114
+Epoch: 485, Loss: 0.07151
+Val loss: 0.07143
+Epoch: 486, Loss: 0.07157
+Val loss: 0.07099
+Epoch: 487, Loss: 0.07163
+Val loss: 0.07085
+Epoch: 488, Loss: 0.07164
+Val loss: 0.07131
+Epoch: 489, Loss: 0.07160
+Val loss: 0.07126
+Epoch: 490, Loss: 0.07159
+Val loss: 0.07098
+Epoch: 491, Loss: 0.07145
+Val loss: 0.07122
+Epoch: 492, Loss: 0.07155
+Val loss: 0.07130
+Epoch: 493, Loss: 0.07164
+Val loss: 0.07096
+Epoch: 494, Loss: 0.07154
+Val loss: 0.07125
+Epoch: 495, Loss: 0.07150
+Val loss: 0.07095
+Epoch: 496, Loss: 0.07164
+Val loss: 0.07127
+Epoch: 497, Loss: 0.07162
+Val loss: 0.07121
+Epoch: 498, Loss: 0.07164
+Val loss: 0.07077
+Epoch: 499, Loss: 0.07149
+Val loss: 0.07142
+Epoch: 500, Loss: 0.07158
+Val loss: 0.07146
+Epoch: 501, Loss: 0.07131
+Val loss: 0.07081
+Epoch: 502, Loss: 0.07123
+Val loss: 0.07062
+Epoch: 503, Loss: 0.07119
+Val loss: 0.07096
+Epoch: 504, Loss: 0.07116
+Val loss: 0.07057
+Epoch: 505, Loss: 0.07113
+Val loss: 0.07118
+Epoch: 506, Loss: 0.07116
+Val loss: 0.07070
+Epoch: 507, Loss: 0.07121
+Val loss: 0.07076
+Epoch: 508, Loss: 0.07124
+Val loss: 0.07060
+Epoch: 509, Loss: 0.07116
+Val loss: 0.07098
+Epoch: 510, Loss: 0.07123
+Val loss: 0.07079
+Epoch: 511, Loss: 0.07117
+Val loss: 0.07054
+Epoch: 512, Loss: 0.07115
+Val loss: 0.07071
+Epoch: 513, Loss: 0.07123
+Val loss: 0.07078
+Epoch: 514, Loss: 0.07110
+Val loss: 0.07055
+Epoch: 515, Loss: 0.07111
+Val loss: 0.07095
+Epoch: 516, Loss: 0.07127
+Val loss: 0.07073
+Epoch: 517, Loss: 0.07111
+Val loss: 0.07082
+Epoch: 518, Loss: 0.07129
+Val loss: 0.07078
+Epoch: 519, Loss: 0.07124
+Val loss: 0.07114
+Epoch: 520, Loss: 0.07117
+Val loss: 0.07062
+Epoch: 521, Loss: 0.07120
+Val loss: 0.07095
+Epoch: 522, Loss: 0.07113
+Val loss: 0.07092
+Epoch: 523, Loss: 0.07114
+Val loss: 0.07111
+Epoch: 524, Loss: 0.07116
+Val loss: 0.07072
+Epoch: 525, Loss: 0.07120
+Val loss: 0.07087
+Epoch: 526, Loss: 0.07112
+Val loss: 0.07063
+Epoch: 527, Loss: 0.07122
+Val loss: 0.07093
+Epoch: 528, Loss: 0.07117
+Val loss: 0.07073
+Epoch: 529, Loss: 0.07127
+Val loss: 0.07102
+Epoch: 530, Loss: 0.07111
+Val loss: 0.07093
+Epoch: 531, Loss: 0.07124
+Val loss: 0.07106
+Epoch: 532, Loss: 0.07106
+Val loss: 0.07106
+Epoch: 533, Loss: 0.07124
+Val loss: 0.07066
+Epoch: 534, Loss: 0.07118
+Val loss: 0.07047
+Epoch: 535, Loss: 0.07122
+Val loss: 0.07086
+Epoch: 536, Loss: 0.07120
+Val loss: 0.07077
+Epoch: 537, Loss: 0.07126
+Val loss: 0.07086
+Epoch: 538, Loss: 0.07116
+Val loss: 0.07105
+Epoch: 539, Loss: 0.07116
+Val loss: 0.07078
+Epoch: 540, Loss: 0.07116
+Val loss: 0.07101
+Epoch: 541, Loss: 0.07124
+Val loss: 0.07090
+Epoch: 542, Loss: 0.07122
+Val loss: 0.07054
+Epoch: 543, Loss: 0.07116
+Val loss: 0.07084
+Epoch: 544, Loss: 0.07110
+Val loss: 0.07079
+Epoch: 545, Loss: 0.07122
+Val loss: 0.07106
+Epoch: 546, Loss: 0.07123
+Val loss: 0.07094
+Epoch: 547, Loss: 0.07121
+Val loss: 0.07058
+Epoch: 548, Loss: 0.07119
+Val loss: 0.07094
+Epoch: 549, Loss: 0.07116
+Val loss: 0.07057
+Epoch: 550, Loss: 0.07114
+Val loss: 0.07065
+Epoch: 551, Loss: 0.07110
+Val loss: 0.07040
+Epoch: 552, Loss: 0.07119
+Val loss: 0.07076
+Epoch: 553, Loss: 0.07117
+Val loss: 0.07058
+Epoch: 554, Loss: 0.07106
+Val loss: 0.07069
+Epoch: 555, Loss: 0.07126
+Val loss: 0.07095
+Epoch: 556, Loss: 0.07115
+Val loss: 0.07075
+Epoch: 557, Loss: 0.07122
+Val loss: 0.07089
+Epoch: 558, Loss: 0.07117
+Val loss: 0.07099
+Epoch: 559, Loss: 0.07117
+Val loss: 0.07123
+Epoch: 560, Loss: 0.07111
+Val loss: 0.07056
+Epoch: 561, Loss: 0.07128
+Val loss: 0.07055
+Epoch: 562, Loss: 0.07117
+Val loss: 0.07072
+Epoch: 563, Loss: 0.07118
+Val loss: 0.07093
+Epoch: 564, Loss: 0.07102
+Val loss: 0.07073
+Epoch: 565, Loss: 0.07112
+Val loss: 0.07071
+Epoch: 566, Loss: 0.07124
+Val loss: 0.07074
+Epoch: 567, Loss: 0.07113
+Val loss: 0.07068
+Epoch: 568, Loss: 0.07114
+Val loss: 0.07072
+Epoch: 569, Loss: 0.07116
+Val loss: 0.07069
+Epoch: 570, Loss: 0.07118
+Val loss: 0.07045
+Epoch: 571, Loss: 0.07122
+Val loss: 0.07088
+Epoch: 572, Loss: 0.07107
+Val loss: 0.07078
+Epoch: 573, Loss: 0.07124
+Val loss: 0.07124
+Epoch: 574, Loss: 0.07118
+Val loss: 0.07098
+Epoch: 575, Loss: 0.07107
+Val loss: 0.07063
+Epoch: 576, Loss: 0.07113
+Val loss: 0.07114
+Epoch: 577, Loss: 0.07114
+Val loss: 0.07053
+Epoch: 578, Loss: 0.07123
+Val loss: 0.07084
+Epoch: 579, Loss: 0.07115
+Val loss: 0.07052
+Epoch: 580, Loss: 0.07117
+Val loss: 0.07094
+Epoch: 581, Loss: 0.07120
+Val loss: 0.07082
+Epoch: 582, Loss: 0.07115
+Val loss: 0.07067
+Epoch: 583, Loss: 0.07105
+Val loss: 0.07079
+Epoch: 584, Loss: 0.07115
+Val loss: 0.07098
+Epoch: 585, Loss: 0.07117
+Val loss: 0.07076
+Epoch: 586, Loss: 0.07115
+Val loss: 0.07098
+Epoch: 587, Loss: 0.07116
+Val loss: 0.07109
+Epoch: 588, Loss: 0.07114
+Val loss: 0.07082
+Epoch: 589, Loss: 0.07115
+Val loss: 0.07071
+Epoch: 590, Loss: 0.07124
+Val loss: 0.07095
+Epoch: 591, Loss: 0.07118
+Val loss: 0.07104
+Epoch: 592, Loss: 0.07108
+Val loss: 0.07086
+Epoch: 593, Loss: 0.07123
+Val loss: 0.07095
+Epoch: 594, Loss: 0.07112
+Val loss: 0.07058
+Epoch: 595, Loss: 0.07122
+Val loss: 0.07078
+Epoch: 596, Loss: 0.07114
+Val loss: 0.07099
+Epoch: 597, Loss: 0.07119
+Val loss: 0.07104
+Epoch: 598, Loss: 0.07107
+Val loss: 0.07063
+Epoch: 599, Loss: 0.07112
+Val loss: 0.07076
+Epoch: 600, Loss: 0.07111
+Val loss: 0.07052
+Epoch: 601, Loss: 0.07110
+Val loss: 0.07055
+Epoch: 602, Loss: 0.07118
+Val loss: 0.07111
+Epoch: 603, Loss: 0.07107
+Val loss: 0.07056
+Epoch: 604, Loss: 0.07111
+Val loss: 0.07082
+Epoch: 605, Loss: 0.07118
+Val loss: 0.07031
+Epoch: 606, Loss: 0.07108
+Val loss: 0.07105
+Epoch: 607, Loss: 0.07118
+Val loss: 0.07073
+Epoch: 608, Loss: 0.07110
+Val loss: 0.07072
+Epoch: 609, Loss: 0.07107
+Val loss: 0.07095
+Epoch: 610, Loss: 0.07123
+Val loss: 0.07090
+Epoch: 611, Loss: 0.07114
+Val loss: 0.07078
+Epoch: 612, Loss: 0.07117
+Val loss: 0.07082
+Epoch: 613, Loss: 0.07119
+Val loss: 0.07087
+Epoch: 614, Loss: 0.07113
+Val loss: 0.07088
+Epoch: 615, Loss: 0.07115
+Val loss: 0.07083
+Epoch: 616, Loss: 0.07116
+Val loss: 0.07061
+Epoch: 617, Loss: 0.07108
+Val loss: 0.07071
+Epoch: 618, Loss: 0.07118
+Val loss: 0.07084
+Epoch: 619, Loss: 0.07113
+Val loss: 0.07090
+Epoch: 620, Loss: 0.07117
+Val loss: 0.07055
+Epoch: 621, Loss: 0.07116
+Val loss: 0.07069
+Epoch: 622, Loss: 0.07110
+Val loss: 0.07066
+Epoch: 623, Loss: 0.07112
+Val loss: 0.07053
+Epoch: 624, Loss: 0.07113
+Val loss: 0.07088
+Epoch: 625, Loss: 0.07115
+Val loss: 0.07108
+Epoch: 626, Loss: 0.07116
+Val loss: 0.07083
+Epoch: 627, Loss: 0.07116
+Val loss: 0.07062
+Epoch: 628, Loss: 0.07123
+Val loss: 0.07116
+Epoch: 629, Loss: 0.07117
+Val loss: 0.07094
+Epoch: 630, Loss: 0.07112
+Val loss: 0.07055
+Epoch: 631, Loss: 0.07107
+Val loss: 0.07097
+Epoch: 632, Loss: 0.07114
+Val loss: 0.07073
+Epoch: 633, Loss: 0.07115
+Val loss: 0.07096
+Epoch: 634, Loss: 0.07103
+Val loss: 0.07065
+Epoch: 635, Loss: 0.07102
+Val loss: 0.07094
+Epoch: 636, Loss: 0.07118
+Val loss: 0.07054
+Epoch: 637, Loss: 0.07123
+Val loss: 0.07080
+Epoch: 638, Loss: 0.07116
+Val loss: 0.07080
+Epoch: 639, Loss: 0.07102
+Val loss: 0.07065
+Epoch: 640, Loss: 0.07111
+Val loss: 0.07079
+Epoch: 641, Loss: 0.07117
+Val loss: 0.07103
+Epoch: 642, Loss: 0.07112
+Val loss: 0.07085
+Epoch: 643, Loss: 0.07118
+Val loss: 0.07063
+Epoch: 644, Loss: 0.07110
+Val loss: 0.07068
+Epoch: 645, Loss: 0.07111
+Val loss: 0.07101
+Epoch: 646, Loss: 0.07116
+Val loss: 0.07049
+Epoch: 647, Loss: 0.07105
+Val loss: 0.07060
+Epoch: 648, Loss: 0.07124
+Val loss: 0.07082
+Epoch: 649, Loss: 0.07099
+Val loss: 0.07085
+Epoch: 650, Loss: 0.07113
+Val loss: 0.07074
+Epoch: 651, Loss: 0.07115
+Val loss: 0.07061
+Epoch: 652, Loss: 0.07123
+Val loss: 0.07075
+Epoch: 653, Loss: 0.07114
+Val loss: 0.07098
+Epoch: 654, Loss: 0.07113
+Val loss: 0.07047
+Epoch: 655, Loss: 0.07112
+Val loss: 0.07099
+Epoch: 656, Loss: 0.07111
+Val loss: 0.07084
+Epoch: 657, Loss: 0.07117
+Val loss: 0.07053
+Epoch: 658, Loss: 0.07117
+Val loss: 0.07045
+Epoch: 659, Loss: 0.07111
+Val loss: 0.07075
+Epoch: 660, Loss: 0.07112
+Val loss: 0.07050
+Epoch: 661, Loss: 0.07117
+Val loss: 0.07044
+Epoch: 662, Loss: 0.07117
+Val loss: 0.07071
+Epoch: 663, Loss: 0.07120
+Val loss: 0.07076
+Epoch: 664, Loss: 0.07125
+Val loss: 0.07103
+Epoch: 665, Loss: 0.07118
+Val loss: 0.07069
+Epoch: 666, Loss: 0.07107
+Val loss: 0.07063
+Epoch: 667, Loss: 0.07110
+Val loss: 0.07073
+Epoch: 668, Loss: 0.07107
+Val loss: 0.07096
+Epoch: 669, Loss: 0.07117
+Val loss: 0.07103
+Epoch: 670, Loss: 0.07117
+Val loss: 0.07066
+Epoch: 671, Loss: 0.07111
+Val loss: 0.07136
+Epoch: 672, Loss: 0.07107
+Val loss: 0.07091
+Epoch: 673, Loss: 0.07114
+Val loss: 0.07070
+Epoch: 674, Loss: 0.07117
+Val loss: 0.07055
+Epoch: 675, Loss: 0.07115
+Val loss: 0.07095
+Epoch: 676, Loss: 0.07115
+Val loss: 0.07084
+Epoch: 677, Loss: 0.07105
+Val loss: 0.07098
+Epoch: 678, Loss: 0.07109
+Val loss: 0.07101
+Epoch: 679, Loss: 0.07115
+Val loss: 0.07098
+Epoch: 680, Loss: 0.07112
+Val loss: 0.07094
+Epoch: 681, Loss: 0.07119
+Val loss: 0.07106
+Epoch: 682, Loss: 0.07115
+Val loss: 0.07074
+Epoch: 683, Loss: 0.07106
+Val loss: 0.07068
+Epoch: 684, Loss: 0.07111
+Val loss: 0.07070
+Epoch: 685, Loss: 0.07114
+Val loss: 0.07086
+Epoch: 686, Loss: 0.07109
+Val loss: 0.07075
+Epoch: 687, Loss: 0.07105
+Val loss: 0.07070
+Epoch: 688, Loss: 0.07111
+Val loss: 0.07096
+Epoch: 689, Loss: 0.07092
+Val loss: 0.07051
+Epoch: 690, Loss: 0.07085
+Val loss: 0.07031
+Epoch: 691, Loss: 0.07076
+Val loss: 0.07025
+Epoch: 692, Loss: 0.07074
+Val loss: 0.07015
+Epoch: 693, Loss: 0.07075
+Val loss: 0.07039
+Epoch: 694, Loss: 0.07074
+Val loss: 0.07027
+Epoch: 695, Loss: 0.07073
+Val loss: 0.07048
+Epoch: 696, Loss: 0.07086
+Val loss: 0.07016
+Epoch: 697, Loss: 0.07071
+Val loss: 0.07034
+Epoch: 698, Loss: 0.07086
+Val loss: 0.07072
+Epoch: 699, Loss: 0.07087
+Val loss: 0.07037
+Epoch: 700, Loss: 0.07078
+Val loss: 0.07019
+Epoch: 701, Loss: 0.07075
+Val loss: 0.07027
+Epoch: 702, Loss: 0.07071
+Val loss: 0.07037
+Epoch: 703, Loss: 0.07068
+Val loss: 0.07041
+Epoch: 704, Loss: 0.07073
+Val loss: 0.07043
+Epoch: 705, Loss: 0.07041
+Val loss: 0.07015
+Epoch: 706, Loss: 0.07047
+Val loss: 0.06991
+Epoch: 707, Loss: 0.07039
+Val loss: 0.07030
+Epoch: 708, Loss: 0.07035
+Val loss: 0.07001
+Epoch: 709, Loss: 0.07041
+Val loss: 0.06972
+Epoch: 710, Loss: 0.07045
+Val loss: 0.06955
+Epoch: 711, Loss: 0.07039
+Val loss: 0.06991
+Epoch: 712, Loss: 0.07044
+Val loss: 0.06976
+Epoch: 713, Loss: 0.07038
+Val loss: 0.06997
+Epoch: 714, Loss: 0.07028
+Val loss: 0.07004
+Epoch: 715, Loss: 0.07048
+Val loss: 0.07024
+Epoch: 716, Loss: 0.07021
+Val loss: 0.06967
+Epoch: 717, Loss: 0.07008
+Val loss: 0.06962
+Epoch: 718, Loss: 0.07002
+Val loss: 0.06973
+Epoch: 719, Loss: 0.07010
+Val loss: 0.06986
+Epoch: 720, Loss: 0.06995
+Val loss: 0.07005
+Epoch: 721, Loss: 0.07001
+Val loss: 0.06967
+Epoch: 722, Loss: 0.07001
+Val loss: 0.06981
+Epoch: 723, Loss: 0.07004
+Val loss: 0.06994
+Epoch: 724, Loss: 0.07005
+Val loss: 0.06961
+Epoch: 725, Loss: 0.06986
+Val loss: 0.06961
+Epoch: 726, Loss: 0.07002
+Val loss: 0.06990
+Epoch: 727, Loss: 0.07001
+Val loss: 0.06940
+Epoch: 728, Loss: 0.07003
+Val loss: 0.06956
+Epoch: 729, Loss: 0.06997
+Val loss: 0.06975
+Epoch: 730, Loss: 0.07013
+Val loss: 0.06998
+Epoch: 731, Loss: 0.06997
+Val loss: 0.06957
+Epoch: 732, Loss: 0.07005
+Val loss: 0.06984
+Epoch: 733, Loss: 0.07013
+Val loss: 0.06962
+Epoch: 734, Loss: 0.07001
+Val loss: 0.06975
+Epoch: 735, Loss: 0.07006
+Val loss: 0.06963
+Epoch: 736, Loss: 0.07006
+Val loss: 0.07020
+Epoch: 737, Loss: 0.07012
+Val loss: 0.06939
+Epoch: 738, Loss: 0.06993
+Val loss: 0.06971
+Epoch: 739, Loss: 0.06995
+Val loss: 0.06963
+Epoch: 740, Loss: 0.07004
+Val loss: 0.06960
+Epoch: 741, Loss: 0.06998
+Val loss: 0.06969
+Epoch: 742, Loss: 0.07008
+Val loss: 0.06950
+Epoch: 743, Loss: 0.06999
+Val loss: 0.06974
+Epoch: 744, Loss: 0.06999
+Val loss: 0.06968
+Epoch: 745, Loss: 0.07000
+Val loss: 0.06961
+Epoch: 746, Loss: 0.07001
+Val loss: 0.06954
+Epoch: 747, Loss: 0.07003
+Val loss: 0.06976
+Epoch: 748, Loss: 0.06983
+Val loss: 0.06954
+Epoch: 749, Loss: 0.07004
+Val loss: 0.06960
+Epoch: 750, Loss: 0.06989
+Val loss: 0.06974
+Epoch: 751, Loss: 0.07002
+Val loss: 0.06980
+Epoch: 752, Loss: 0.07009
+Val loss: 0.06947
+Epoch: 753, Loss: 0.07001
+Val loss: 0.06961
+Epoch: 754, Loss: 0.06999
+Val loss: 0.06985
+Epoch: 755, Loss: 0.07010
+Val loss: 0.06980
+Epoch: 756, Loss: 0.07002
+Val loss: 0.06956
+Epoch: 757, Loss: 0.06999
+Val loss: 0.06965
+Epoch: 758, Loss: 0.07003
+Val loss: 0.06970
+Epoch: 759, Loss: 0.06997
+Val loss: 0.06953
+Epoch: 760, Loss: 0.06989
+Val loss: 0.06976
+Epoch: 761, Loss: 0.07008
+Val loss: 0.06978
+Epoch: 762, Loss: 0.07002
+Val loss: 0.06927
+Epoch: 763, Loss: 0.06988
+Val loss: 0.06958
+Epoch: 764, Loss: 0.06998
+Val loss: 0.06997
+Epoch: 765, Loss: 0.06993
+Val loss: 0.06942
+Epoch: 766, Loss: 0.06994
+Val loss: 0.06944
+Epoch: 767, Loss: 0.06988
+Val loss: 0.06946
+Epoch: 768, Loss: 0.07005
+Val loss: 0.06959
+Epoch: 769, Loss: 0.06995
+Val loss: 0.06967
+Epoch: 770, Loss: 0.06992
+Val loss: 0.06979
+Epoch: 771, Loss: 0.06998
+Val loss: 0.06951
+Epoch: 772, Loss: 0.06997
+Val loss: 0.06931
+Epoch: 773, Loss: 0.06998
+Val loss: 0.06944
+Epoch: 774, Loss: 0.06996
+Val loss: 0.06974
+Epoch: 775, Loss: 0.06994
+Val loss: 0.06985
+Epoch: 776, Loss: 0.06997
+Val loss: 0.06978
+Epoch: 777, Loss: 0.07004
+Val loss: 0.06960
+Epoch: 778, Loss: 0.07010
+Val loss: 0.06962
+Epoch: 779, Loss: 0.06994
+Val loss: 0.06973
+Epoch: 780, Loss: 0.07005
+Val loss: 0.06976
+Epoch: 781, Loss: 0.06996
+Val loss: 0.06954
+Epoch: 782, Loss: 0.06997
+Val loss: 0.06953
+Epoch: 783, Loss: 0.07000
+Val loss: 0.06957
+Epoch: 784, Loss: 0.06990
+Val loss: 0.06969
+Epoch: 785, Loss: 0.07004
+Val loss: 0.06948
+Epoch: 786, Loss: 0.07004
+Val loss: 0.06963
+Epoch: 787, Loss: 0.07001
+Val loss: 0.06975
+Epoch: 788, Loss: 0.06989
+Val loss: 0.07000
+Epoch: 789, Loss: 0.06997
+Val loss: 0.06927
+Epoch: 790, Loss: 0.07003
+Val loss: 0.06977
+Epoch: 791, Loss: 0.07002
+Val loss: 0.06942
+Epoch: 792, Loss: 0.07006
+Val loss: 0.06982
+Epoch: 793, Loss: 0.06994
+Val loss: 0.06995
+Epoch: 794, Loss: 0.07000
+Val loss: 0.06969
+Epoch: 795, Loss: 0.06999
+Val loss: 0.06947
+Epoch: 796, Loss: 0.06999
+Val loss: 0.06971
+Epoch: 797, Loss: 0.06994
+Val loss: 0.06952
+Epoch: 798, Loss: 0.06995
+Val loss: 0.06979
+Epoch: 799, Loss: 0.06993
+Val loss: 0.06987
+Epoch: 800, Loss: 0.07003
+Val loss: 0.06954
+Epoch: 801, Loss: 0.06996
+Val loss: 0.06970
+Epoch: 802, Loss: 0.07004
+Val loss: 0.06959
+Epoch: 803, Loss: 0.06999
+Val loss: 0.06958
+Epoch: 804, Loss: 0.07005
+Val loss: 0.06963
+Epoch: 805, Loss: 0.06993
+Val loss: 0.07000
+Epoch: 806, Loss: 0.06992
+Val loss: 0.06985
+Epoch: 807, Loss: 0.06999
+Val loss: 0.06945
+Epoch: 808, Loss: 0.07006
+Val loss: 0.06939
+Epoch: 809, Loss: 0.06995
+Val loss: 0.06960
+Epoch: 810, Loss: 0.06993
+Val loss: 0.06966
+Epoch: 811, Loss: 0.06993
+Val loss: 0.06953
+Epoch: 812, Loss: 0.06993
+Val loss: 0.06965
+Epoch: 813, Loss: 0.06984
+Val loss: 0.06958
+Epoch: 814, Loss: 0.07002
+Val loss: 0.06952
+Epoch: 815, Loss: 0.06995
+Val loss: 0.06965
+Epoch: 816, Loss: 0.06994
+Val loss: 0.06968
+Epoch: 817, Loss: 0.06988
+Val loss: 0.06963
+Epoch: 818, Loss: 0.07000
+Val loss: 0.06995
+Epoch: 819, Loss: 0.07001
+Val loss: 0.06978
+Epoch: 820, Loss: 0.06999
+Val loss: 0.06979
+Epoch: 821, Loss: 0.07001
+Val loss: 0.06955
+Epoch: 822, Loss: 0.06995
+Val loss: 0.06957
+Epoch: 823, Loss: 0.07000
+Val loss: 0.06960
+Epoch: 824, Loss: 0.07001
+Val loss: 0.06984
+Epoch: 825, Loss: 0.06997
+Val loss: 0.06993
+Epoch: 826, Loss: 0.07005
+Val loss: 0.06966
+Epoch: 827, Loss: 0.06996
+Val loss: 0.06939
+Epoch: 828, Loss: 0.06997
+Val loss: 0.06967
+Epoch: 829, Loss: 0.07001
+Val loss: 0.06950
+Epoch: 830, Loss: 0.06995
+Val loss: 0.06930
+Epoch: 831, Loss: 0.06993
+Val loss: 0.06956
+Epoch: 832, Loss: 0.06993
+Val loss: 0.06974
+Epoch: 833, Loss: 0.07004
+Val loss: 0.06983
+Epoch: 834, Loss: 0.06991
+Val loss: 0.06947
+Epoch: 835, Loss: 0.07011
+Val loss: 0.06950
+Epoch: 836, Loss: 0.06993
+Val loss: 0.06969
+Epoch: 837, Loss: 0.06999
+Val loss: 0.06969
+Epoch: 838, Loss: 0.06997
+Val loss: 0.06978
+Epoch: 839, Loss: 0.07003
+Val loss: 0.06962
+Epoch: 840, Loss: 0.07004
+Val loss: 0.06965
+Epoch: 841, Loss: 0.07004
+Val loss: 0.06960
+Epoch: 842, Loss: 0.07004
+Val loss: 0.06957
+Epoch: 843, Loss: 0.06984
+Val loss: 0.06958
+Epoch: 844, Loss: 0.06995
+Val loss: 0.06948
+Epoch: 845, Loss: 0.07001
+Val loss: 0.06937
+Epoch: 846, Loss: 0.07010
+Val loss: 0.06963
+Epoch: 847, Loss: 0.07001
+Val loss: 0.06984
+Epoch: 848, Loss: 0.07003
+Val loss: 0.06959
+Epoch: 849, Loss: 0.06994
+Val loss: 0.06957
+Epoch: 850, Loss: 0.06999
+Val loss: 0.06955
+Epoch: 851, Loss: 0.06999
+Val loss: 0.06923
+Epoch: 852, Loss: 0.07002
+Val loss: 0.06931
+Epoch: 853, Loss: 0.07007
+Val loss: 0.06967
+Epoch: 854, Loss: 0.07003
+Val loss: 0.06990
+Epoch: 855, Loss: 0.06997
+Val loss: 0.06967
+Epoch: 856, Loss: 0.07003
+Val loss: 0.06935
+Epoch: 857, Loss: 0.06997
+Val loss: 0.06969
+Epoch: 858, Loss: 0.06990
+Val loss: 0.06953
+Epoch: 859, Loss: 0.06999
+Val loss: 0.06928
+Epoch: 860, Loss: 0.06998
+Val loss: 0.06950
+Epoch: 861, Loss: 0.07002
+Val loss: 0.06952
+Epoch: 862, Loss: 0.06988
+Val loss: 0.06942
+Epoch: 863, Loss: 0.06987
+Val loss: 0.06976
+Epoch: 864, Loss: 0.06993
+Val loss: 0.06944
+Epoch: 865, Loss: 0.07004
+Val loss: 0.06979
+Epoch: 866, Loss: 0.07000
+Val loss: 0.06949
+Epoch: 867, Loss: 0.06993
+Val loss: 0.06951
+Epoch: 868, Loss: 0.06998
+Val loss: 0.06959
+Epoch: 869, Loss: 0.07000
+Val loss: 0.06968
+Epoch: 870, Loss: 0.06996
+Val loss: 0.06967
+Epoch: 871, Loss: 0.07007
+Val loss: 0.06978
+Epoch: 872, Loss: 0.07000
+Val loss: 0.06943
+Epoch: 873, Loss: 0.06988
+Val loss: 0.06951
+Epoch: 874, Loss: 0.06995
+Val loss: 0.06962
+Epoch: 875, Loss: 0.06999
+Val loss: 0.06983
+Epoch: 876, Loss: 0.06996
+Val loss: 0.06967
+Epoch: 877, Loss: 0.06995
+Val loss: 0.06956
+Epoch: 878, Loss: 0.06998
+Val loss: 0.06953
+Epoch: 879, Loss: 0.07004
+Val loss: 0.06941
+Epoch: 880, Loss: 0.06998
+Val loss: 0.06978
+Epoch: 881, Loss: 0.07002
+Val loss: 0.06962
+Epoch: 882, Loss: 0.06993
+Val loss: 0.06984
+Epoch: 883, Loss: 0.07003
+Val loss: 0.06946
+Epoch: 884, Loss: 0.06999
+Val loss: 0.06960
+Epoch: 885, Loss: 0.06988
+Val loss: 0.06951
+Epoch: 886, Loss: 0.06996
+Val loss: 0.06976
+Epoch: 887, Loss: 0.07003
+Val loss: 0.06969
+Epoch: 888, Loss: 0.07004
+Val loss: 0.06975
+Epoch: 889, Loss: 0.07003
+Val loss: 0.06943
+Epoch: 890, Loss: 0.06991
+Val loss: 0.06956
+Epoch: 891, Loss: 0.06991
+Val loss: 0.06957
+Epoch: 892, Loss: 0.07003
+Val loss: 0.07008
+Epoch: 893, Loss: 0.06999
+Val loss: 0.06935
+Epoch: 894, Loss: 0.07002
+Val loss: 0.06939
+Epoch: 895, Loss: 0.06996
+Val loss: 0.06948
+Epoch: 896, Loss: 0.07000
+Val loss: 0.06960
+Epoch: 897, Loss: 0.06991
+Val loss: 0.06947
+Epoch: 898, Loss: 0.07008
+Val loss: 0.06940
+Epoch: 899, Loss: 0.07000
+Val loss: 0.06936
+Epoch: 900, Loss: 0.07000
+Val loss: 0.06950
+Epoch: 901, Loss: 0.06993
+Val loss: 0.06951
+Epoch: 902, Loss: 0.06994
+Val loss: 0.06972
+Epoch: 903, Loss: 0.06990
+Val loss: 0.06976
+Epoch: 904, Loss: 0.06995
+Val loss: 0.07001
+Epoch: 905, Loss: 0.07003
+Val loss: 0.06940
+Epoch: 906, Loss: 0.06993
+Val loss: 0.06957
+Epoch: 907, Loss: 0.06987
+Val loss: 0.06950
+Epoch: 908, Loss: 0.06998
+Val loss: 0.06941
+Epoch: 909, Loss: 0.07003
+Val loss: 0.06944
+Epoch: 910, Loss: 0.06993
+Val loss: 0.06935
+Epoch: 911, Loss: 0.06999
+Val loss: 0.06983
+Epoch: 912, Loss: 0.06994
+Val loss: 0.06940
+Epoch: 913, Loss: 0.07001
+Val loss: 0.06969
+Epoch: 914, Loss: 0.06993
+Val loss: 0.06945
+Epoch: 915, Loss: 0.06997
+Val loss: 0.06943
+Epoch: 916, Loss: 0.06989
+Val loss: 0.06951
+Epoch: 917, Loss: 0.07003
+Val loss: 0.06952
+Epoch: 918, Loss: 0.06995
+Val loss: 0.06945
+Epoch: 919, Loss: 0.07003
+Val loss: 0.06956
+Epoch: 920, Loss: 0.06988
+Val loss: 0.06993
+Epoch: 921, Loss: 0.06996
+Val loss: 0.06959
+Epoch: 922, Loss: 0.07002
+Val loss: 0.06931
+Epoch: 923, Loss: 0.06995
+Val loss: 0.06953
+Epoch: 924, Loss: 0.06992
+Val loss: 0.06937
+Epoch: 925, Loss: 0.06997
+Val loss: 0.06989
+Epoch: 926, Loss: 0.06997
+Val loss: 0.06966
+Epoch: 927, Loss: 0.06988
+Val loss: 0.06946
+Epoch: 928, Loss: 0.06998
+Val loss: 0.06939
+Epoch: 929, Loss: 0.06996
+Val loss: 0.06968
+Epoch: 930, Loss: 0.06989
+Val loss: 0.06934
+Epoch: 931, Loss: 0.07000
+Val loss: 0.06953
+Epoch: 932, Loss: 0.06995
+Val loss: 0.06968
+Epoch: 933, Loss: 0.06999
+Val loss: 0.06966
+Epoch: 934, Loss: 0.07009
+Val loss: 0.06975
+Epoch: 935, Loss: 0.07000
+Val loss: 0.06991
+Epoch: 936, Loss: 0.06997
+Val loss: 0.06933
+Epoch: 937, Loss: 0.06995
+Val loss: 0.06955
+Epoch: 938, Loss: 0.06999
+Val loss: 0.06969
+Epoch: 939, Loss: 0.07001
+Val loss: 0.06934
+Epoch: 940, Loss: 0.06995
+Val loss: 0.06952
+Epoch: 941, Loss: 0.07003
+Val loss: 0.06942
+Epoch: 942, Loss: 0.06998
+Val loss: 0.06941
+Epoch: 943, Loss: 0.06991
+Val loss: 0.06936
+Epoch: 944, Loss: 0.07004
+Val loss: 0.06956
+Epoch: 945, Loss: 0.07003
+Val loss: 0.06935
+Epoch: 946, Loss: 0.06991
+Val loss: 0.06978
+Epoch: 947, Loss: 0.06994
+Val loss: 0.06953
+Epoch: 948, Loss: 0.06992
+Val loss: 0.06964
+Epoch: 949, Loss: 0.06998
+Val loss: 0.06968
+Epoch: 950, Loss: 0.06990
+Val loss: 0.06973
+Epoch: 951, Loss: 0.06995
+Val loss: 0.06930
+Epoch: 952, Loss: 0.06997
+Val loss: 0.06948
+Epoch: 953, Loss: 0.06989
+Val loss: 0.06955
+Epoch: 954, Loss: 0.07000
+Val loss: 0.06987
+Epoch: 955, Loss: 0.06993
+Val loss: 0.06983
+Epoch: 956, Loss: 0.06993
+Val loss: 0.06938
+Epoch: 957, Loss: 0.06996
+Val loss: 0.06959
+Epoch: 958, Loss: 0.06995
+Val loss: 0.06930
+Epoch: 959, Loss: 0.06999
+Val loss: 0.06940
+Epoch: 960, Loss: 0.06992
+Val loss: 0.06973
+Epoch: 961, Loss: 0.06997
+Val loss: 0.06972
+Epoch: 962, Loss: 0.07000
+Val loss: 0.06987
+Epoch: 963, Loss: 0.06997
+Val loss: 0.06961
+Epoch: 964, Loss: 0.07006
+Val loss: 0.06989
+Epoch: 965, Loss: 0.06996
+Val loss: 0.06946
+Epoch: 966, Loss: 0.06993
+Val loss: 0.06958
+Epoch: 967, Loss: 0.06993
+Val loss: 0.06968
+Epoch: 968, Loss: 0.06995
+Val loss: 0.06963
+Epoch: 969, Loss: 0.07001
+Val loss: 0.06978
+Epoch: 970, Loss: 0.06998
+Val loss: 0.06961
+Epoch: 971, Loss: 0.06996
+Val loss: 0.06954
+Epoch: 972, Loss: 0.06989
+Val loss: 0.06951
+Epoch: 973, Loss: 0.06991
+Val loss: 0.06967
+Epoch: 974, Loss: 0.07004
+Val loss: 0.06972
+Epoch: 975, Loss: 0.06992
+Val loss: 0.06972
+Epoch: 976, Loss: 0.06989
+Val loss: 0.06934
+Epoch: 977, Loss: 0.06999
+Val loss: 0.06952
+Epoch: 978, Loss: 0.06987
+Val loss: 0.06921
+Epoch: 979, Loss: 0.06997
+Val loss: 0.06959
+Epoch: 980, Loss: 0.06998
+Val loss: 0.06955
+Epoch: 981, Loss: 0.06990
+Val loss: 0.06940
+Epoch: 982, Loss: 0.06991
+Val loss: 0.06954
+Epoch: 983, Loss: 0.06995
+Val loss: 0.06940
+Epoch: 984, Loss: 0.06994
+Val loss: 0.06947
+Epoch: 985, Loss: 0.06997
+Val loss: 0.06964
+Epoch: 986, Loss: 0.06989
+Val loss: 0.06956
+Epoch: 987, Loss: 0.06998
+Val loss: 0.06928
+Epoch: 988, Loss: 0.06988
+Val loss: 0.06945
+Epoch: 989, Loss: 0.06996
+Val loss: 0.06963
+Epoch: 990, Loss: 0.06989
+Val loss: 0.07002
+Epoch: 991, Loss: 0.06992
+Val loss: 0.06950
+Epoch: 992, Loss: 0.06997
+Val loss: 0.06972
+Epoch: 993, Loss: 0.06987
+Val loss: 0.06957
+Epoch: 994, Loss: 0.06998
+Val loss: 0.06966
+Epoch: 995, Loss: 0.06999
+Val loss: 0.06966
+Epoch: 996, Loss: 0.06994
+Val loss: 0.06963
+Epoch: 997, Loss: 0.06986
+Val loss: 0.06926
+Epoch: 998, Loss: 0.06994
+Val loss: 0.06955
+Epoch: 999, Loss: 0.06988
+Val loss: 0.06991
+Epoch: 1000, Loss: 0.07002
+Val loss: 0.06929
+Time: 13190.40
