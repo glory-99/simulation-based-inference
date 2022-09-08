@@ -120,11 +120,11 @@ if __name__ == "__main__":
     N = 50
     theta = 0.05
     beta_range = (-3, 3)
-    X = np.load("./data/X_rho0_N50_p200.npy")
-    normalize_c = np.load("./data/normalize_constant_rho0.npy")
-    gamma_val = np.load('./data/gamma_val_rho0.npy')
-    beta_val = np.load('./data/beta_val_rho0.npy')
-    Y_val = np.load('./data/Y_val_rho0.npy') / normalize_c
+    X = np.load("./data/X_rho06_N50_p200.npy")
+    normalize_c = np.load("./data/normalize_constant_rho06.npy")
+    gamma_val = np.load('./data/gamma_val_rho06.npy')
+    beta_val = np.load('./data/beta_val_rho06.npy')
+    Y_val = np.load('./data/Y_val_rho06.npy') / normalize_c
     generator = Generator(p, theta, beta_range, N, X, cat_XtY=True)
     generator.normalize_c = normalize_c    #Pass the normalization constant to the generator
     model = MLP_pro(N+p, p).to(device)
@@ -133,14 +133,14 @@ if __name__ == "__main__":
                                                           generator=generator,
                                                           lr=0.001,
                                                           batch_size=256,
-                                                          epochs=500,
+                                                          epochs=1000,
                                                           iter_per_epoch=3000,
                                                           val_data=Y_val,
                                                           val_label=beta_val)
     end_time = time.time()
-    torch.save(model.state_dict(), './model/model_rho0.pt')
-    np.save('./results/train_losses_rho0', train_losses)
-    np.save('./results/val_losses_rho0', val_losses)
+    torch.save(model.state_dict(), './model/model_rho06.pt')
+    np.save('./results/train_losses_rho06', train_losses)
+    np.save('./results/val_losses_rho06', val_losses)
     print("Time: {:.2f}".format(end_time-start_time))
 
 
