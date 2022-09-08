@@ -15,4 +15,4 @@ module load pytorch
 
 # DO COMPUTE WORK
 export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
-python larger_model.py
+python p200_exp1.py

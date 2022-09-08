@@ -133,7 +133,7 @@ if __name__ == "__main__":
                                                           generator=generator,
                                                           lr=0.001,
                                                           batch_size=256,
-                                                          epochs=10,
+                                                          epochs=500,
                                                           iter_per_epoch=3000,
                                                           val_data=Y_val,
                                                           val_label=beta_val)
