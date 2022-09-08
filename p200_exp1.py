@@ -121,24 +121,26 @@ if __name__ == "__main__":
     theta = 0.05
     beta_range = (-3, 3)
     X = np.load("./data/X_rho0_N50_p200.npy")
-    normalize_c = np.load("normalize_constant.npy")
+    normalize_c = np.load("./data/normalize_constant_rho0.npy")
+    gamma_val = np.load('./data/gamma_val_rho0.npy')
+    beta_val = np.load('./data/beta_val_rho0.npy')
+    Y_val = np.load('./data/Y_val_rho0.npy') / normalize_c
     generator = Generator(p, theta, beta_range, N, X, cat_XtY=True)
     generator.normalize_c = normalize_c    #Pass the normalization constant to the generator
-    gamma_val, beta_val, Y_val = generator.generate_samples(1000)
     model = MLP_pro(N+p, p).to(device)
     print(device)
     train_losses, val_losses = train_model_with_generator(model=model,
                                                           generator=generator,
                                                           lr=0.001,
                                                           batch_size=256,
-                                                          epochs=1000,
+                                                          epochs=10,
                                                           iter_per_epoch=3000,
                                                           val_data=Y_val,
                                                           val_label=beta_val)
     end_time = time.time()
-    torch.save(model.state_dict(), 'My_model_promax.pt')
-    np.save('train_losses_promax', train_losses)
-    np.save('val_losses_promax', val_losses)
+    torch.save(model.state_dict(), './model/model_rho0.pt')
+    np.save('./results/train_losses_rho0', train_losses)
+    np.save('./results/val_losses_rho0', val_losses)
     print("Time: {:.2f}".format(end_time-start_time))
 
 
