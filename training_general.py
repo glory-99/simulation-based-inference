@@ -115,6 +115,7 @@ if __name__ == "__main__":
     parser.add_argument("q", type=float)
     parser.add_argument("--epochs", type=int)
     parser.add_argument("--lr_step_size", type=int)
+    parser.add_argument("--exp_id", type=int)
     args = parser.parse_args()
     p = args.p
     theta = 0.05
@@ -124,12 +125,15 @@ if __name__ == "__main__":
     init_lr = 0.001
     lr_step_size = 200 # lr scheduler step size
     lr_gamma = 0.4 # lr scheduler decreasing factor
+    exp_id = 0
     q = args.q
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     if args.epochs:
         epochs = args.epochs
     if args.lr_step_size:
         lr_step_size = args.lr_step_size
+    if args.exp_id:
+	exp_id = args.exp_id
 
     rng.seed(0)
     generator = Generator_doubleNormal(p, theta, sigma0, sigma1)
@@ -150,7 +154,9 @@ if __name__ == "__main__":
                                         coordinate_loss=coordinate_loss, Y_test=((Y_val - mean) / std), beta_test=beta_val)
     end_time = time.time()
     print("Trainging time: {:.2f}".format(end_time-start_time))
-    np.save('./results/train_losses_p{p}_q{1000*q}', train_losses)
-    np.save('./results/val_losses_p{p}_q{1000*q}', val_losses)
-    np.save('./results/coordinate_loss_p{p}_q{1000*q}', coordinate_loss)
-    torch.save(model.state_dict(), f'./model/p{p}_q{1000*q}.pt')
+    np.save('./results/mean_p{p}_q{1000*q}_exp{exp_id}', mean)
+    np.save('./results/std_p{p}_q{1000*q}_exp{exp_id}', std)
+    np.save('./results/train_losses_p{p}_q{1000*q}_exp{exp_id}', train_losses)
+    np.save('./results/val_losses_p{p}_q{1000*q}_exp{exp_id}', val_losses)
+    np.save('./results/coordinate_loss_p{p}_q{1000*q}_exp{exp_id}', coordinate_loss)
+    torch.save(model.state_dict(), f'./model/p{p}_q{1000*q}_exp{exp_id}.pt')
