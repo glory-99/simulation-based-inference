@@ -133,7 +133,7 @@ if __name__ == "__main__":
     if args.lr_step_size:
         lr_step_size = args.lr_step_size
     if args.exp_id:
-	exp_id = args.exp_id
+	    exp_id = args.exp_id
 
     rng.seed(0)
     generator = Generator_doubleNormal(p, theta, sigma0, sigma1)
@@ -154,9 +154,9 @@ if __name__ == "__main__":
                                         coordinate_loss=coordinate_loss, Y_test=((Y_val - mean) / std), beta_test=beta_val)
     end_time = time.time()
     print("Trainging time: {:.2f}".format(end_time-start_time))
-    np.save('./results/mean_p{p}_q{1000*q}_exp{exp_id}', mean)
-    np.save('./results/std_p{p}_q{1000*q}_exp{exp_id}', std)
-    np.save('./results/train_losses_p{p}_q{1000*q}_exp{exp_id}', train_losses)
-    np.save('./results/val_losses_p{p}_q{1000*q}_exp{exp_id}', val_losses)
-    np.save('./results/coordinate_loss_p{p}_q{1000*q}_exp{exp_id}', coordinate_loss)
-    torch.save(model.state_dict(), f'./model/p{p}_q{1000*q}_exp{exp_id}.pt')
+    np.save(f'./results/mean_p{p}_q{int(1000*q)}_exp{exp_id}', mean)
+    np.save(f'./results/std_p{p}_q{int(1000*q)}_exp{exp_id}', std)
+    np.save(f'./results/train_losses_p{p}_q{int(1000*q)}_exp{exp_id}', train_losses)
+    np.save(f'./results/val_losses_p{p}_q{int(1000*q)}_exp{exp_id}', val_losses)
+    np.save(f'./results/coordinate_loss_p{p}_q{int(1000*q)}_exp{exp_id}', coordinate_loss)
+    torch.save(model.state_dict(), f'./model/p{p}_q{int(1000*q)}_exp{exp_id}.pt')
