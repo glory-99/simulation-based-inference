@@ -133,7 +133,7 @@ if __name__ == "__main__":
     if args.lr_step_size:
         lr_step_size = args.lr_step_size
     if args.exp_id:
-	    exp_id = args.exp_id
+        exp_id = args.exp_id
 
     rng.seed(0)
     generator = Generator_doubleNormal(p, theta, sigma0, sigma1)
