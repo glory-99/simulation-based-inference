@@ -138,14 +138,10 @@ if __name__ == "__main__":
         exp_id = args.exp_id
 
     rng.seed(0)
-    Sigma = np.ones((p, p)) * rho
-    Sigma = Sigma + np.diag(np.ones(p) * (1-rho))
-    X = rng.multivariate_normal(np.zeros(p), Sigma, N)
-    X = X - np.mean(X, axis=0)
-    X = X * np.sqrt(N / np.sum(X**2, axis=0))
+    X = np.load("./data/X_rho0_N50_p200.npy")
     generator = Generator_doubleNormal_lr(X, theta, sigma0, sigma1)
     mean, std = normalize_constant_est(generator)
-    gamma_val, beta_val, Y_val = generator.generate_samples(50000)
+    gamma_val, beta_val, Y_val = generator.generate_samples(1000000)
     val_dataset = TensorDataset(torch.Tensor((Y_val - mean) / std), torch.Tensor(beta_val))
     valid_dataloader = DataLoader(val_dataset, batch_size=len(val_dataset))
     rng.seed()
