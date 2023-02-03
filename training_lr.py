@@ -138,7 +138,7 @@ if __name__ == "__main__":
         exp_id = args.exp_id
 
     rng.seed(0)
-    X = np.load("./data/X_rho0_N50_p200.npy")
+    X = np.load("./data/X_rho0_N50_p50.npy")
     generator = Generator_doubleNormal_lr(X, theta, sigma0, sigma1)
     mean, std = normalize_constant_est(generator)
     gamma_val, beta_val, Y_val = generator.generate_samples(1000000)
