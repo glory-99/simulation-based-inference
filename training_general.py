@@ -122,7 +122,7 @@ if __name__ == "__main__":
     sigma0 = 0.1
     sigma1 = 5
     epochs = 1000
-    init_lr = 0.001
+    init_lr = 0.005
     lr_step_size = 200 # lr scheduler step size
     lr_gamma = 0.4 # lr scheduler decreasing factor
     exp_id = 0
@@ -145,7 +145,7 @@ if __name__ == "__main__":
     
     coordinate_loss = []
     start_time = time.time()
-    model = MLP_variant(p, p, [1024, 1024], 'leakyrelu').to(device)
+    model = MLP_variant(p, p, [4096, 4096], 'leakyrelu').to(device)
     optimizer = torch.optim.Adam(model.parameters(), lr=init_lr)
     scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=lr_step_size, gamma=lr_gamma)
     train_losses, val_losses = train_model_with_generator(model, generator, optimizer, epochs=epochs,
