@@ -4,7 +4,7 @@
 #SBATCH --account=pi-jingshuw
 #SBATCH --partition=gpu
 #SBATCH --gres=gpu:1
-#SBATCH --mem=32768
+#SBATCH --mem=65536
 #SBATCH --ntasks-per-node=1 # num cores to drive each gpu
 #SBATCH --cpus-per-task=1   # set this to the desired number of threads
 #SBATCH --output=./output/MyJob_%j.out
