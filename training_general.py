@@ -122,7 +122,7 @@ if __name__ == "__main__":
     sigma0 = 0.1
     sigma1 = 5
     epochs = 1000
-    init_lr = 0.005
+    init_lr = 0.001
     lr_step_size = 200 # lr scheduler step size
     lr_gamma = 0.4 # lr scheduler decreasing factor
     exp_id = 0
