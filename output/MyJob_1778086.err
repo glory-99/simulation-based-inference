@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "training_general.py", line 151, in <module>
+    train_losses, val_losses = train_model_with_generator(model, generator, optimizer, epochs=epochs,
+  File "training_general.py", line 97, in train_model_with_generator
+    val_loss = model_test(model, val_data, loss_type, q, kwargs)
+  File "training_general.py", line 32, in model_test
+    loss = model.get_quanloss(data, targ, q)
+  File "/home/rongy/simulation-based-inference/model.py", line 44, in get_quanloss
+    output = self.forward(data)
+  File "/home/rongy/simulation-based-inference/model.py", line 34, in forward
+    x = self.dropout(self.activation(m(x)))
+  File "/software/python-anaconda-2020.11-el8-x86_64/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/software/python-anaconda-2020.11-el8-x86_64/lib/python3.8/site-packages/torch/nn/modules/activation.py", line 738, in forward
+    return F.leaky_relu(input, self.negative_slope, self.inplace)
+  File "/software/python-anaconda-2020.11-el8-x86_64/lib/python3.8/site-packages/torch/nn/functional.py", line 1475, in leaky_relu
+    result = torch._C._nn.leaky_relu(input, negative_slope)
+RuntimeError: CUDA out of memory. Tried to allocate 7.63 GiB (GPU 0; 15.78 GiB total capacity; 9.20 GiB already allocated; 5.21 GiB free; 9.21 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
