@@ -121,7 +121,7 @@ if __name__ == "__main__":
     theta = 0.05
     sigma0 = 0.1
     sigma1 = 5
-    epochs = 1000
+    epochs = 300
     init_lr = 0.001
     lr_step_size = 200 # lr scheduler step size
     lr_gamma = 0.4 # lr scheduler decreasing factor
@@ -141,13 +141,16 @@ if __name__ == "__main__":
     gamma_val, beta_val, Y_val = generator.generate_samples(1000000)
     val_dataset = TensorDataset(torch.Tensor((Y_val - mean) / std), torch.Tensor(beta_val))
     valid_dataloader = DataLoader(val_dataset, batch_size=len(val_dataset))
-    rng.seed()
     
+    rng.seed(1024)
+    torch.manual_seed(1024)
     coordinate_loss = []
     start_time = time.time()
-    model = MLP_variant(p, p, [256, 256], 'leakyrelu').to(device)
+    model = MLP_variant(p, p, [512, 512], 'leakyrelu').to(device)
     optimizer = torch.optim.AdamW(model.parameters(), lr=init_lr)
-    scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=lr_step_size, gamma=lr_gamma)
+    scheduler1 = torch.optim.lr_scheduler.StepLR(optimizer, step_size=lr_step_size, gamma=lr_gamma)
+    scheduler2 = torch.optim.lr_scheduler.ExponentialLR(optimizer, gamma=0.9)
+    scheduler = torch.optim.lr_scheduler.SequentialLR(optimizer, schedulers=[scheduler1, scheduler2], milestones=[250])
     train_losses, val_losses = train_model_with_generator(model, generator, optimizer, epochs=epochs,
                                         batch_size=256, iteration_per_epoch=4000, loss_type='quantile',
                                         q=q, val_data=valid_dataloader, scheduler=scheduler, mean=mean, std=std,
