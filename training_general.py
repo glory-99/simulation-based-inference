@@ -146,7 +146,7 @@ if __name__ == "__main__":
     coordinate_loss = []
     start_time = time.time()
     model = MLP_variant(p, p, [1024, 1024], 'leakyrelu').to(device)
-    optimizer = torch.optim.Adam(model.parameters(), lr=init_lr)
+    optimizer = torch.optim.AdamW(model.parameters(), lr=init_lr)
     scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=lr_step_size, gamma=lr_gamma)
     train_losses, val_losses = train_model_with_generator(model, generator, optimizer, epochs=epochs,
                                         batch_size=256, iteration_per_epoch=4000, loss_type='quantile',
