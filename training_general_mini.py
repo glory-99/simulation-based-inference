@@ -147,7 +147,7 @@ if __name__ == "__main__":
     coordinate_loss = []
     start_time = time.time()
     model = MLP_variant(p, p, [512, 512], 'leakyrelu').to(device)
-    optimizer = torch.optim.AdamW(model.parameters(), lr=init_lr)
+    optimizer = torch.optim.AdamW(model.parameters(), lr=init_lr, amsgrad=True)
     scheduler1 = torch.optim.lr_scheduler.StepLR(optimizer, step_size=lr_step_size, gamma=lr_gamma)
     scheduler2 = torch.optim.lr_scheduler.MultiplicativeLR(optimizer, lambda epoch: 0.9)
     scheduler = torch.optim.lr_scheduler.SequentialLR(optimizer, schedulers=[scheduler1, scheduler2], milestones=[300])
