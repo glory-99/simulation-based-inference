@@ -121,7 +121,7 @@ if __name__ == "__main__":
     theta = 0.05
     sigma0 = 0.1
     sigma1 = 5
-    epochs = 300
+    epochs = 350
     init_lr = 0.001
     lr_step_size = 200 # lr scheduler step size
     lr_gamma = 0.4 # lr scheduler decreasing factor
@@ -150,7 +150,7 @@ if __name__ == "__main__":
     optimizer = torch.optim.AdamW(model.parameters(), lr=init_lr)
     scheduler1 = torch.optim.lr_scheduler.StepLR(optimizer, step_size=lr_step_size, gamma=lr_gamma)
     scheduler2 = torch.optim.lr_scheduler.MultiplicativeLR(optimizer, lambda epoch: 0.9)
-    scheduler = torch.optim.lr_scheduler.SequentialLR(optimizer, schedulers=[scheduler1, scheduler2], milestones=[250])
+    scheduler = torch.optim.lr_scheduler.SequentialLR(optimizer, schedulers=[scheduler1, scheduler2], milestones=[300])
     train_losses, val_losses = train_model_with_generator(model, generator, optimizer, epochs=epochs,
                                         batch_size=256, iteration_per_epoch=4000, loss_type='quantile',
                                         q=q, val_data=valid_dataloader, scheduler=scheduler, mean=mean, std=std,
