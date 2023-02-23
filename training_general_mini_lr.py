@@ -148,6 +148,7 @@ if __name__ == "__main__":
     coordinate_loss = []
     start_time = time.time()
     model = MLP_variant(p, p, [512, 512], 'leakyrelu').to(device)
+    torch.save(model.state_dict(), f'./model/initial_p{p}_q{int(1000*q)}_exp{exp_id}.pt')    # use to check reproducibility
     optimizer = torch.optim.AdamW(model.parameters(), lr=init_lr)
     scheduler = torch.optim.lr_scheduler.ExponentialLR(optimizer, gamma=0.9)
     train_losses, val_losses = train_model_with_generator(model, generator, optimizer, epochs=epochs,

@@ -7,6 +7,7 @@ from model import MLP_variant
 from simulators import Generator_doubleNormal
 import time
 import argparse
+import matplotlib.pyplot as plt
 
 def normalize_constant_est(generator, n=100000, seed=0):
     gamma_train, beta_train, Y_train = generator.generate_samples(n)
@@ -72,6 +73,7 @@ def train_epoch_with_generator(model, optimizer, generator, batch_size, iteratio
         elif loss_type == 'max_quantile':
             loss = model.get_max_quanloss(Y, beta, q)
         train_loss += loss.item()
+        print("train_loss: ", train_loss)
 
         optimizer.zero_grad()
         loss.backward()
@@ -110,14 +112,8 @@ def train_model_with_generator(model, generator, optimizer, epochs, batch_size, 
     return train_losses, val_losses
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("p", type=int)
-    parser.add_argument("q", type=float)
-    parser.add_argument("--epochs", type=int)
-    parser.add_argument("--lr_step_size", type=int)
-    parser.add_argument("--exp_id", type=int)
-    args = parser.parse_args()
-    p = args.p
+    p = 50
+    q = 0.025
     theta = 0.05
     sigma0 = 0.1
     sigma1 = 5
@@ -126,14 +122,8 @@ if __name__ == "__main__":
     lr_step_size = 200 # lr scheduler step size
     lr_gamma = 0.4 # lr scheduler decreasing factor
     exp_id = 0
-    q = args.q
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-    if args.epochs:
-        epochs = args.epochs
-    if args.lr_step_size:
-        lr_step_size = args.lr_step_size
-    if args.exp_id:
-        exp_id = args.exp_id
+
 
     rng.seed(0)
     generator = Generator_doubleNormal(p, theta, sigma0, sigma1)
@@ -147,19 +137,18 @@ if __name__ == "__main__":
     coordinate_loss = []
     start_time = time.time()
     model = MLP_variant(p, p, [512, 512], 'leakyrelu').to(device)
+    for name, paras in model.named_parameters():
+        print(paras)
+        break 
     optimizer = torch.optim.AdamW(model.parameters(), lr=init_lr, amsgrad=True)
     scheduler1 = torch.optim.lr_scheduler.StepLR(optimizer, step_size=lr_step_size, gamma=lr_gamma)
     scheduler2 = torch.optim.lr_scheduler.MultiplicativeLR(optimizer, lambda epoch: 0.9)
     scheduler = torch.optim.lr_scheduler.SequentialLR(optimizer, schedulers=[scheduler1, scheduler2], milestones=[300])
-    train_losses, val_losses = train_model_with_generator(model, generator, optimizer, epochs=epochs,
-                                        batch_size=256, iteration_per_epoch=4000, loss_type='quantile',
+    train_losses, val_losses = train_model_with_generator(model, generator, optimizer, epochs=20,
+                                        batch_size=256, iteration_per_epoch=5, loss_type='quantile',
                                         q=q, val_data=valid_dataloader, scheduler=scheduler, mean=mean, std=std,
                                         coordinate_loss=coordinate_loss, Y_test=((Y_val - mean) / std), beta_test=beta_val)
     end_time = time.time()
     print("Trainging time: {:.2f}".format(end_time-start_time))
-    np.save(f'./results/mean_p{p}_q{int(1000*q)}_exp{exp_id}', mean)
-    np.save(f'./results/std_p{p}_q{int(1000*q)}_exp{exp_id}', std)
-    np.save(f'./results/train_losses_p{p}_q{int(1000*q)}_exp{exp_id}', train_losses)
-    np.save(f'./results/val_losses_p{p}_q{int(1000*q)}_exp{exp_id}', val_losses)
-    np.save(f'./results/coordinate_loss_p{p}_q{int(1000*q)}_exp{exp_id}', coordinate_loss)
-    torch.save(model.state_dict(), f'./model/p{p}_q{int(1000*q)}_exp{exp_id}.pt')
+    plt.plot(coordinate_loss)
+
