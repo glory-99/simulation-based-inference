@@ -1,0 +1,31 @@
+Epoch: 1
+Train loss: 0.02432
+Val loss: 0.01987
+Epoch: 2
+Train loss: 0.01970
+Val loss: 0.01953
+Epoch: 3
+Train loss: 0.01946
+Val loss: 0.01938
+Epoch: 4
+Train loss: 0.01935
+Val loss: 0.01926
+Epoch: 5
+Train loss: 0.01922
+Val loss: 0.01918
+Epoch: 6
+Train loss: 0.01912
+Val loss: 0.01900
+Epoch: 7
+Train loss: 0.01893
+Val loss: 0.01885
+Epoch: 8
+Train loss: 0.01875
+Val loss: 0.01864
+Epoch: 9
+Train loss: 0.01855
+Val loss: 0.01846
+Epoch: 10
+Train loss: 0.01839
+Val loss: 0.01829
+Trainging time: 216.40
