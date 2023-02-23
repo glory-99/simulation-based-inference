@@ -141,8 +141,9 @@ if __name__ == "__main__":
     gamma_val, beta_val, Y_val = generator.generate_samples(1000000)
     val_dataset = TensorDataset(torch.Tensor((Y_val - mean) / std), torch.Tensor(beta_val))
     valid_dataloader = DataLoader(val_dataset, batch_size=len(val_dataset))
-    rng.seed()
     
+    rng.seed(1024)
+    torch.manual_seed(1024)
     coordinate_loss = []
     start_time = time.time()
     model = MLP_variant(p, p, [1024, 1024], 'leakyrelu').to(device)
