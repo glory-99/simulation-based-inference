@@ -102,7 +102,11 @@ def train_model_with_generator(model, generator, optimizer, epochs, batch_size, 
                 kwargs['model_list'].append(deepcopy(model.state_dict()))
         if 'coordinate_loss' in kwargs:
             pred = predict(model, kwargs['Y_test'])
-            kwargs['coordinate_loss'].append(np.mean(np.maximum(q*(kwargs['beta_test']-pred),(1-q)*(pred-kwargs['beta_test'])), 0))
+            if 'subset' in kwargs:
+                kwargs['coordinate_loss'].append(np.mean(np.maximum(q*(kwargs['beta_test'][:,(kwargs['subset'][0]-1):kwargs['subset'][1]]-pred),
+                                                                    (1-q)*(pred-kwargs['beta_test'][:,(kwargs['subset'][0]-1):kwargs['subset'][1]])), 0))
+            else:
+                kwargs['coordinate_loss'].append(np.mean(np.maximum(q*(kwargs['beta_test']-pred),(1-q)*(pred-kwargs['beta_test'])), 0))
         if 'save_paras' in kwargs:
             for name, paras in model.named_parameters():
                 if name in kwargs['save_paras']:
