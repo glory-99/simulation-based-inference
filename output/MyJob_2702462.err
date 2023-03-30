@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "p200_o50_amsgrad.py", line 159, in <module>
+    train_losses, val_losses = train_model_with_generator(model, generator, optimizer, epochs=epochs,
+  File "p200_o50_amsgrad.py", line 105, in train_model_with_generator
+    kwargs['coordinate_loss'].append(np.mean(np.maximum(q*(kwargs['beta_test']-pred),(1-q)*(pred-kwargs['beta_test'])), 0))
+ValueError: operands could not be broadcast together with shapes (1000000,200) (1000000,50) 
