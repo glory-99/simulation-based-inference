@@ -144,6 +144,7 @@ if __name__ == "__main__":
     
     rng.seed(1024)
     torch.manual_seed(1024)
+    torch.cuda.manual_seed(1024)
     coordinate_loss = []
     start_time = time.time()
     model = MLP_variant(p, p, [1024, 1024], 'leakyrelu').to(device)
