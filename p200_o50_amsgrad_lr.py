@@ -127,7 +127,7 @@ if __name__ == "__main__":
     theta = 0.05
     sigma0 = 0.1
     sigma1 = 5
-    rho = 0 
+    rho = 0.9 
     N = 200 
     epochs = 1000
     init_lr = 0.001
@@ -145,10 +145,10 @@ if __name__ == "__main__":
         exp_id = args.exp_id
 
     rng.seed(0)
-    X = np.load("./data/X_rho0_N200_p200.npy")
+    X = np.load("./data/X_rho09_N200_p200.npy")
     generator = Generator_doubleNormal_lr(X, theta, sigma0, sigma1)
-    mean = np.load("./data/mean_rho0_N200_p200.npy")
-    std = np.load("./data/std_rho0_N200_p200.npy")
+    mean = np.load("./data/mean_rho09_N200_p200.npy")
+    std = np.load("./data/std_rho09_N200_p200.npy")
     gamma_val, beta_val, Y_val = generator.generate_samples(1000000)
     val_dataset = TensorDataset(torch.Tensor((Y_val - mean) / std), torch.Tensor(beta_val))
     valid_dataloader = DataLoader(val_dataset, batch_size=len(val_dataset))
