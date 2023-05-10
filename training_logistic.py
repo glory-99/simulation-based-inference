@@ -128,7 +128,7 @@ if __name__ == "__main__":
         exp_id = args.exp_id
 
     rng.seed(0)
-    X = np.load("./data/X_rho0_N50_p50.npy")
+    X = np.load("./data/X_rho0_N500_p50.npy")
     generator = Generator_logistic(X, theta, sigma0, sigma1)
     gamma_val, beta_val, Y_val = generator.generate_samples(1000000)
     val_dataset = TensorDataset(torch.Tensor(Y_val), torch.Tensor(beta_val))
