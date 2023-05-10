@@ -129,6 +129,7 @@ if __name__ == "__main__":
 
     rng.seed(0)
     X = np.load("./data/X_rho0_N500_p50.npy")
+    N = X.shape[0]
     generator = Generator_logistic(X, theta, sigma0, sigma1)
     gamma_val, beta_val, Y_val = generator.generate_samples(1000000)
     val_dataset = TensorDataset(torch.Tensor(Y_val), torch.Tensor(beta_val))
@@ -139,7 +140,7 @@ if __name__ == "__main__":
     torch.cuda.manual_seed(1024)
     coordinate_loss = []
     start_time = time.time()
-    model = MLP_variant(p, p, [1024, 1024], 'leakyrelu').to(device)
+    model = MLP_variant(N, p, [1024, 1024], 'leakyrelu').to(device)
     optimizer = torch.optim.AdamW(model.parameters(), lr=init_lr, amsgrad=True)
     scheduler1 = torch.optim.lr_scheduler.StepLR(optimizer, step_size=lr_step_size, gamma=lr_gamma)
     scheduler2 = torch.optim.lr_scheduler.MultiplicativeLR(optimizer, lambda epoch: 0.9)
