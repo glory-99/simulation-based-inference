@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "training_logistic.py", line 147, in <module>
+    train_losses, val_losses = train_model_with_generator(model, generator, optimizer, epochs=epochs,
+  File "training_logistic.py", line 83, in train_model_with_generator
+    train_loss = train_epoch_with_generator(
+  File "training_logistic.py", line 64, in train_epoch_with_generator
+    loss = model.get_quanloss(Y, beta, q)
+  File "/home/rongy/simulation-based-inference/model.py", line 44, in get_quanloss
+    output = self.forward(data)
+  File "/home/rongy/simulation-based-inference/model.py", line 34, in forward
+    x = self.dropout(self.activation(m(x)))
+  File "/software/python-anaconda-2020.11-el8-x86_64/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/software/python-anaconda-2020.11-el8-x86_64/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 103, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/software/python-anaconda-2020.11-el8-x86_64/lib/python3.8/site-packages/torch/nn/functional.py", line 1848, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (256x500 and 50x1024)
