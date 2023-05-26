@@ -15,4 +15,4 @@ module load pytorch
 
 # DO COMPUTE WORK
 export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
-python training_logistic.py 50 0.025 --exp_id 1
+python training_logistic.py 50 0.025 --exp_id 2
