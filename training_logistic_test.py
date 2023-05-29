@@ -113,13 +113,14 @@ if __name__ == "__main__":
     theta = 0.05
     sigma0 = 0.1
     sigma1 = 5
-    epochs = 10
+    epochs = 1
     init_lr = 0.001
     lr_step_size = 200 # lr scheduler step size
     lr_gamma = 0.4 # lr scheduler decreasing factor
     exp_id = 0
     q = args.q
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+    print(device)
     if args.epochs:
         epochs = args.epochs
     if args.lr_step_size:
